@@ -103,15 +103,12 @@ following History API changes rather than only the initial page load.
 
 All website copy lives in `src/content.js`. To update text (prices, testimonials, service descriptions, bio paragraphs, FAQ, per-page titles/descriptions in `PAGE_META`), edit that file only — no component changes needed.
 
-## Outstanding before launch
+## Launch status
 
-- **Brevo senders & Cloudflare Analytics** need their own setup for
-  `wiseandpure.com` (see Environment Variables above) — they don't
-  automatically carry over from thewealthcode's accounts, even though it's
-  the same legal entity.
-- **Netlify site + DNS**: `wiseandpure.com` isn't pointed at a Netlify site
-  yet — needs a new site created in the Netlify dashboard (or `netlify init`)
-  and the domain's DNS updated to it.
+Live at `wiseandpure.com`: DNS points at the Netlify site, Brevo senders
+(`noreply@wiseandpure.com`, `angel@wiseandpure.com`) are domain-verified, and
+Cloudflare Web Analytics has its own site/token for this domain. The
+contact-form → Brevo email path has been tested end to end in production.
 
 Resolved on purpose, not by default, so noting the reasoning: no new legal
 entity (Wise and Pure is a second brand of The Wealth Code, LLC, reflected in
