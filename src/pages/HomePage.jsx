@@ -1,4 +1,5 @@
 import HeroSection from '../components/HeroSection';
+import PhilosophySection from '../components/PhilosophySection';
 import PositioningSection from '../components/PositioningSection';
 import HomeAboutSection from '../components/HomeAboutSection';
 import ApproachSection from '../components/ApproachSection';
@@ -24,6 +25,8 @@ export default function HomePage() {
   return (
     <main role="main">
       <HeroSection copy={copy} />
+
+      <PhilosophySection copy={copy} />
 
       <PositioningSection copy={copy} />
 

@@ -23,6 +23,18 @@ export const COPY = {
       title: 'A coach, not an advisor',
       body: "A financial advisor manages your money for a fee that grows with it. I'd rather teach you to fish — flat fee, and once your system is running, you're the one holding the rod, stewarding what's been entrusted to you.",
     },
+    philosophy: {
+      title: 'Why "Wise and Pure"',
+      verseText:
+        'Behold, I am sending you out as sheep in the midst of wolves, so be wise as serpents and pure as doves.',
+      verseReference: 'Matthew 10:16',
+      paragraphs: [
+        'The name comes from Matthew 10:16, where Jesus tells His disciples to be "wise as serpents and pure as doves." He was not talking about money there — but a few chapters later, in Luke 16, He makes almost the same point about it directly.',
+        'In Luke 16, Jesus tells a strange parable about a dishonest manager who gets caught, then acts shrewdly to secure his future before he is let go — and Jesus praises his cleverness, not his ethics: "the sons of this age are more prudent in their dealings with their own generation than the sons of light." He tells His own followers to be just as sharp about money, only aimed at something that lasts: "Make friends for yourselves by means of the mammon of unrighteousness, so that when it fails, they may receive you into the eternal tabernacles." (Luke 16:9)',
+        'That is the wise half. The pure half is what keeps it from curdling into greed: "He who is faithful in the least is faithful also in much" (Luke 16:10) — how you handle a budget, a credit card, or a paycheck is the training ground for everything else you will ever be trusted with. And underneath both halves is the same warning: "You cannot serve God and mammon" (Luke 16:13). Money makes a good servant and a terrible master.',
+        'That is the whole philosophy behind this coaching. Be wise: learn how budgeting, debt, and investing actually work instead of avoiding the subject or hoping it sorts itself out. Be pure: hold it with an open hand, free of both greed and fear, so it can do what it is for — providing for your family, funding your generosity, and freeing you up for what actually matters.',
+      ],
+    },
     homeAbout: {
       title: "Hi, I'm Angel Giron",
       body: "I remember being in my early twenties with $500 and no plan — and no one had ever shown me what faithful stewardship actually looks like in practice. I've learned a lot since then, and I want to help you build a financial life that reflects your convictions instead of working against them.",
@@ -124,7 +136,7 @@ export const COPY = {
     },
   },
   es: {
-    siteName: 'Wise and Pure',
+    siteName: 'Sabio y Puro',
     nav: [
       'Acerca de',
       'A quién ayudo',
@@ -148,6 +160,18 @@ export const COPY = {
       title: 'Un coach, no un asesor',
       body: 'Un asesor financiero maneja su dinero por una tarifa que crece junto con él. Yo prefiero enseñarle a pescar: tarifa fija, y una vez que su sistema está funcionando, usted es quien tiene la caña y administra lo que se le ha confiado.',
     },
+    philosophy: {
+      title: 'Por qué "Sabio y Puro"',
+      verseText:
+        'He aquí, yo os envío como a ovejas en medio de lobos; sed, pues, sabios como serpientes, y puros como palomas.',
+      verseReference: 'Mateo 10:16',
+      paragraphs: [
+        'El nombre viene de Mateo 10:16, donde Jesús les dice a sus discípulos que sean "sabios como serpientes, y puros como palomas." No estaba hablando de dinero en ese momento, pero unos capítulos después, en Lucas 16, dice casi lo mismo directamente sobre el tema.',
+        'En Lucas 16, Jesús cuenta una parábola extraña sobre un administrador deshonesto que es descubierto, y que actúa con astucia para asegurar su futuro antes de perder su puesto — y Jesús elogia su astucia, no su ética: "los hijos de este siglo son más sagaces en su generación que los hijos de luz." Después les pide a sus propios seguidores que sean igual de agudos con el dinero, pero apuntando a algo que sí permanece: "Haceos amigos de las riquezas de iniquidad, para que cuando faltareis, os reciban en las moradas eternas" (Lucas 16:9).',
+        'Esa es la mitad sabia. La mitad pura es lo que evita que se convierta en codicia: "El que es fiel en lo muy poco, es fiel también en lo mucho" (Lucas 16:10) — cómo maneja un presupuesto, una tarjeta de crédito o un cheque de pago es el entrenamiento para todo lo demás que se le confiará después. Y debajo de ambas mitades está la misma advertencia: "No podéis servir a Dios y a las riquezas" (Lucas 16:13). El dinero es un buen siervo y un pésimo amo.',
+        'Esa es toda la filosofía detrás de este coaching. Sea sabio: aprenda cómo funcionan realmente el presupuesto, la deuda y la inversión, en lugar de evitar el tema o esperar que se resuelva solo. Sea puro: sosténgalo con la mano abierta, libre tanto de la codicia como del miedo, para que pueda cumplir su propósito — sostener a su familia, financiar su generosidad, y darle la libertad de enfocarse en lo que de verdad importa.',
+      ],
+    },
     homeAbout: {
       title: 'Hola, soy Ángel Giron',
       body: 'Recuerdo tener veintipocos años, con $500 dólares y sin ningún plan, y nadie me había mostrado nunca cómo se ve la mayordomía fiel en la práctica. He aprendido mucho desde entonces, y quiero ayudarle a construir una vida financiera que refleje sus convicciones en lugar de ir en contra de ellas.',
@@ -158,7 +182,7 @@ export const COPY = {
       authorityTitle: 'Ingeniero • Inversionista • Coach Financiero Cristiano',
       imageAlt: 'Foto de Ángel Giron',
       paragraphs: [
-        'Comencé Wise and Pure para enseñarle a los cristianos lo que me hubiera gustado que alguien me enseñara cuando era más joven — no solo cómo funciona el dinero, sino cómo nos llama la Escritura a administrarlo. Lo aprendí en partes, por necesidad, a lo largo de los años. Mi trabajo es mostrarle a dónde se está yendo su dinero, detener las fugas y construir un sistema basado en principios bíblicos que siga funcionando después de nuestras sesiones.',
+        'Comencé Sabio y Puro para enseñarle a los cristianos lo que me hubiera gustado que alguien me enseñara cuando era más joven — no solo cómo funciona el dinero, sino cómo nos llama la Escritura a administrarlo. Lo aprendí en partes, por necesidad, a lo largo de los años. Mi trabajo es mostrarle a dónde se está yendo su dinero, detener las fugas y construir un sistema basado en principios bíblicos que siga funcionando después de nuestras sesiones.',
         'En julio de 2020, tenía $500 dólares a mi nombre — una etapa de bajos ingresos que superé administrando bien mi presupuesto. Ya dominaba cómo manejar el dinero; hacerlo crecer era la pieza que me faltaba. Así que aprendí a construir patrimonio desde cero, empezando por la automatización y pagándome a mí mismo primero, sin perder de vista que el dinero es una herramienta para administrar, no algo que perseguir por sí solo. Hoy soy ingeniero de software, propietario de mi casa e inversionista — pero el verdadero logro es la libertad. El dinero ya no controla mis decisiones; trabaja en segundo plano para que yo pueda enfocarme en mi familia, mi iglesia y mi comunidad.',
         'Antes de la ingeniería de software, fui maestro — me encantaba ver a mis alumnos dominar lo que antes creían imposible. Aporto ese mismo enfoque al coaching: no solo le construyo un plan, me aseguro de que lo entienda lo suficientemente bien como para manejarlo usted mismo, con la confianza de que está alineado con lo que cree.',
         'La mayoría ve las inversiones como una apuesta — desde afuera, parece un casino. Pero invertir de verdad no se trata de adivinar ganadores ni de predecir el mercado. Requiere constancia, tiempo y esa misma confianza paciente a la que la Escritura nos llama en cualquier otra área de la vida — la fuerza menos emocionante y más confiable en las finanzas.',
@@ -231,7 +255,7 @@ export const COPY = {
         message: 'Mensaje',
       },
       disclaimer:
-        'Soy Ángel Giron, gerente de The Wealth Code, LLC, operando como Wise and Pure. Ofrezco únicamente educación financiera, desde una perspectiva bíblica — no soy asesor financiero y no doy asesoramiento financiero. Usted es el único responsable de sus propias decisiones financieras.',
+        'Soy Ángel Giron, gerente de The Wealth Code, LLC, operando como Sabio y Puro. Ofrezco únicamente educación financiera, desde una perspectiva bíblica — no soy asesor financiero y no doy asesoramiento financiero. Usted es el único responsable de sus propias decisiones financieras.',
     },
     languagePrompt: 'Seleccione idioma',
     selectEnglish: 'Seleccione Inglés',
@@ -490,19 +514,19 @@ export const PROCESS_STEPS = {
       title: 'Free Consultation',
       text: 'In one short call, we identify your top money challenges and clarify your goals so we know exactly where to start.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
     {
       title: 'Start Working Together',
       text: 'We meet as often as your situation calls for, billed simply by the hour — no package, no minimum commitment.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
     {
       title: 'Get Results',
       text: 'Follow your plan and walk away knowing where your money goes, where it is growing, and how to keep stewarding it well — without needing me.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
   ],
   es: [
@@ -510,19 +534,19 @@ export const PROCESS_STEPS = {
       title: 'Consulta Gratuita',
       text: 'En una llamada breve, identificamos sus retos financieros y aclaramos sus metas para saber exactamente por dónde empezar.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
     {
       title: 'Empecemos a Trabajar Juntos',
       text: 'Nos reunimos con la frecuencia que su situación requiera, cobrando simplemente por hora — sin paquetes ni compromiso mínimo.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
     {
       title: 'Obtenga Resultados',
       text: 'Siga su plan y termine sabiendo a dónde va su dinero, dónde está creciendo, y cómo seguir administrándolo bien — sin necesitarme.',
       price: '',
-      priceClass: 'text-custom-cedar',
+      priceClass: 'text-custom-accent',
     },
   ],
 };
@@ -636,42 +660,42 @@ export const PAGE_META = {
   },
   es: {
     home: {
-      title: 'Wise and Pure | Coaching Financiero Cristiano',
+      title: 'Sabio y Puro | Coaching Financiero Cristiano',
       description:
         'Coaching financiero bíblico para transformar el estrés por dinero en un plan claro. Presupueste con propósito, elimine deudas, sea generoso y construya patrimonio como un buen mayordomo.',
-      ogTitle: 'Wise and Pure',
+      ogTitle: 'Sabio y Puro',
       ogDescription:
         'Coaching financiero cristiano para organizar su flujo de efectivo, ser generoso y construir patrimonio a largo plazo con principios bíblicos.',
     },
     about: {
-      title: 'Wise and Pure | Sobre Ángel Giron',
+      title: 'Sabio y Puro | Sobre Ángel Giron',
       description:
-        'Ingeniero, inversionista y coach financiero cristiano Ángel Giron: la historia y los principios bíblicos detrás de Wise and Pure.',
-      ogTitle: 'Sobre Ángel Giron | Wise and Pure',
+        'Ingeniero, inversionista y coach financiero cristiano Ángel Giron: la historia y los principios bíblicos detrás de Sabio y Puro.',
+      ogTitle: 'Sobre Ángel Giron | Sabio y Puro',
       ogDescription:
-        'De $500 a propietario de casa e inversionista: la historia y los principios bíblicos de Wise and Pure.',
+        'De $500 a propietario de casa e inversionista: la historia y los principios bíblicos de Sabio y Puro.',
     },
     results: {
-      title: 'Wise and Pure | Resultados y Precios de Coaching',
+      title: 'Sabio y Puro | Resultados y Precios de Coaching',
       description:
         'Vea lo que han logrado clientes anteriores con coaching financiero cristiano, y precios simples por hora — sin paquetes ni mínimos.',
-      ogTitle: 'Resultados y Precios | Wise and Pure',
+      ogTitle: 'Resultados y Precios | Sabio y Puro',
       ogDescription:
         'Resultados reales de clientes de coaching financiero, cobrados simplemente por hora.',
     },
     faq: {
-      title: 'Wise and Pure | Preguntas Frecuentes',
+      title: 'Sabio y Puro | Preguntas Frecuentes',
       description:
-        'Respuestas a preguntas comunes sobre el coaching financiero cristiano con Wise and Pure: para quién es, cuánto cuesta y qué esperar.',
-      ogTitle: 'Preguntas Frecuentes | Wise and Pure',
+        'Respuestas a preguntas comunes sobre el coaching financiero cristiano con Sabio y Puro: para quién es, cuánto cuesta y qué esperar.',
+      ogTitle: 'Preguntas Frecuentes | Sabio y Puro',
       ogDescription:
-        'Preguntas comunes sobre trabajar con Wise and Pure, respondidas.',
+        'Preguntas comunes sobre trabajar con Sabio y Puro, respondidas.',
     },
     contact: {
-      title: 'Wise and Pure | Agende una Consulta Gratuita',
+      title: 'Sabio y Puro | Agende una Consulta Gratuita',
       description:
-        'Agende una consulta gratuita con Wise and Pure para comenzar a construir un sistema financiero basado en la mayordomía bíblica.',
-      ogTitle: 'Contacto | Wise and Pure',
+        'Agende una consulta gratuita con Sabio y Puro para comenzar a construir un sistema financiero basado en la mayordomía bíblica.',
+      ogTitle: 'Contacto | Sabio y Puro',
       ogDescription:
         'Póngase en contacto para agendar su consulta de coaching financiero cristiano gratuita.',
     },
@@ -708,6 +732,44 @@ export const FAQ = {
         'Do I need to belong to a specific church or denomination to work with you?',
       answer:
         'No. I coach Christians from a wide range of backgrounds and traditions. What matters is a shared conviction that what we have is entrusted to us, not simply owned by us, and a willingness to build a plan around that.',
+    },
+    {
+      question: "Isn't investing the same as gambling — and isn't gambling a sin?",
+      answer:
+        'No — they work in opposite directions. Gambling manufactures risk for entertainment: the odds are built to favor the house, and money changes hands without creating anything of value. Real investing means buying a share of an actual, productive business — companies that build things, hire people, and generate profit over years — and letting patient, long-term ownership do the work. It is closer to farming than to a casino: you plant, you wait, and consistency does most of the growing. Even the parable of the talents assumes the servants would put money to productive use, not bury it out of fear — the one who was rebuked was the one who did nothing with what he was given.',
+      verse: {
+        text: 'You should have put my money on deposit with the bankers, so that when I returned I would have received it back with interest.',
+        reference: 'Matthew 25:27',
+      },
+    },
+    {
+      question: "Doesn't the Bible say money is the root of all evil?",
+      answer:
+        "That's one of the most misquoted verses in Scripture — it doesn't actually say that. Paul wrote that the love of money is a root of all kinds of evil, not money itself. The problem was never the dollar bill; it's the heart's posture toward it — anxious grasping, greed, or making it an idol. Scripture treats material wealth as something to be stewarded wisely and even multiplied, and it's full of people who were both wealthy and faithful. The goal here isn't to avoid money out of guilt — it's to hold it with an open hand instead of a closed fist.",
+      verse: {
+        text: 'For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs.',
+        reference: '1 Timothy 6:10',
+      },
+    },
+    {
+      question:
+        "Isn't it more spiritual to just trust God with my money instead of budgeting and planning?",
+      answer:
+        "Trusting God and planning carefully aren't opposites — Scripture asks for both. In the parable of the talents, the master didn't hand out money and tell his servants to do nothing and simply wait on faith; he expected them to put it to work and multiply it, and the one who didn't was rebuked, not praised for his faith. A budget simply puts on paper what you already believe about your priorities, trusting God with the outcome. A plan is not a lack of faith — it is what faithfulness with 'the least' looks like in practice.",
+      verse: {
+        text: 'He who is faithful in the least is faithful also in much, and he who is unrighteous in the least is unrighteous also in much.',
+        reference: 'Luke 16:10',
+      },
+    },
+    {
+      question:
+        "Shouldn't I just give everything away instead of investing or building wealth?",
+      answer:
+        "Generosity and building wealth aren't in competition — done right, one fuels the other. In Luke 16, Jesus tells His disciples to use worldly wealth wisely and generously, so that it makes friends and does eternal good instead of sitting idle or being wasted. A portfolio that grows over decades isn't hoarding; it's a tool that can fund far more generosity over a lifetime than money spent or given away impulsively today, and Scripture never asks believers to be reckless — with a family, with debt, or with the future. The question isn't wealth or giving. It's whether your heart is holding either one loosely.",
+      verse: {
+        text: 'Use worldly wealth to gain friends for yourselves, so that when it is gone, you will be welcomed into eternal dwellings.',
+        reference: 'Luke 16:9',
+      },
     },
     {
       question: 'Will you tell me how much I should give or tithe?',
@@ -787,13 +849,51 @@ export const FAQ = {
       question:
         'Usted es ingeniero e inversionista. ¿Por qué se dedica a esto, y por qué incluir la fe?',
       answer:
-        'El coaching no es de lo que vivo — tengo un trabajo. Precisamente por eso puedo decirle que no lo necesita, o que ya terminamos y que no me necesita más. Comencé Wise and Pure porque creo que el dinero es uno de los temas de los que más se habla en la Escritura y de los que menos se enseña bien, incluso en la iglesia. A mí tampoco nadie se sentó a explicarme cómo manejar el dinero. Quiero ayudar a los cristianos a construir riqueza sin comprometer sus convicciones, y a ser generosos sin preguntarse si pueden costearlo.',
+        'El coaching no es de lo que vivo — tengo un trabajo. Precisamente por eso puedo decirle que no lo necesita, o que ya terminamos y que no me necesita más. Comencé Sabio y Puro porque creo que el dinero es uno de los temas de los que más se habla en la Escritura y de los que menos se enseña bien, incluso en la iglesia. A mí tampoco nadie se sentó a explicarme cómo manejar el dinero. Quiero ayudar a los cristianos a construir riqueza sin comprometer sus convicciones, y a ser generosos sin preguntarse si pueden costearlo.',
     },
     {
       question:
         '¿Necesito pertenecer a una iglesia o denominación específica para trabajar con usted?',
       answer:
         'No. Asesoro a cristianos de una amplia variedad de trasfondos y tradiciones. Lo que importa es la convicción compartida de que lo que tenemos se nos ha confiado, no que simplemente nos pertenece, y la disposición a construir un plan alrededor de eso.',
+    },
+    {
+      question: '¿No es invertir lo mismo que apostar — y no es pecado apostar?',
+      answer:
+        'No — funcionan en direcciones opuestas. Apostar fabrica riesgo por entretenimiento: las probabilidades están diseñadas para favorecer a la casa, y el dinero cambia de manos sin que se cree ningún valor real. Invertir de verdad significa comprar una parte de un negocio real y productivo — empresas que construyen cosas, emplean personas y generan ganancias durante años — y dejar que la paciencia y el tiempo hagan el trabajo. Se parece más a sembrar que a un casino: usted siembra, espera, y la constancia hace crecer el resto. Incluso la parábola de los talentos asume que los siervos pondrían el dinero a trabajar de forma productiva, no que lo enterrarían por miedo — al que reprendieron fue al que no hizo nada con lo que se le confió.',
+      verse: {
+        text: 'Por eso debías haber puesto mi dinero en el banco, para que al regresar yo, lo recibiera con los intereses.',
+        reference: 'Mateo 25:27',
+      },
+    },
+    {
+      question: '¿No dice la Biblia que el dinero es la raíz de todos los males?',
+      answer:
+        'Ese es uno de los versículos más citados fuera de contexto en toda la Escritura — y en realidad no dice eso. Pablo escribió que el amor al dinero es raíz de todos los males, no el dinero en sí. El problema nunca fue el billete; es la postura del corazón hacia él — la ansiedad, la codicia, o convertirlo en un ídolo. La Escritura trata la riqueza material como algo que se debe administrar con sabiduría, e incluso multiplicar, y está llena de personas que fueron ricas y fieles al mismo tiempo. La meta aquí no es evitar el dinero por culpa — es sostenerlo con la mano abierta, no con el puño cerrado.',
+      verse: {
+        text: 'Porque raíz de todos los males es el amor al dinero, el cual codiciando algunos, se extraviaron de la fe, y fueron traspasados de muchos dolores.',
+        reference: '1 Timoteo 6:10',
+      },
+    },
+    {
+      question:
+        '¿No es más espiritual simplemente confiar en Dios con mi dinero, en lugar de hacer presupuestos y planear?',
+      answer:
+        "Confiar en Dios y planear con cuidado no son opuestos — la Escritura pide ambas cosas. En la parábola de los talentos, el amo no repartió dinero y les dijo a sus siervos que no hicieran nada y solo esperaran con fe; esperaba que lo pusieran a trabajar y lo multiplicaran, y al que no lo hizo lo reprendió, no lo elogió por su fe. Un presupuesto simplemente pone por escrito lo que ya cree sobre sus prioridades, confiando en Dios con el resultado. Un plan no es falta de fe — es cómo se ve, en la práctica, la fidelidad en 'lo muy poco'.",
+      verse: {
+        text: 'El que es fiel en lo muy poco, es fiel también en lo mucho; y el que en lo muy poco es injusto, también en lo mucho es injusto.',
+        reference: 'Lucas 16:10',
+      },
+    },
+    {
+      question:
+        '¿No debería simplemente regalarlo todo en lugar de invertir o construir riqueza?',
+      answer:
+        'La generosidad y construir riqueza no compiten entre sí — hechas bien, una impulsa a la otra. En Lucas 16, Jesús les dice a sus discípulos que usen la riqueza de este mundo con sabiduría y generosidad, para que produzca amigos y haga bien eterno, en lugar de quedarse ociosa o desperdiciarse. Un portafolio que crece durante décadas no es acaparar; es una herramienta que puede financiar mucha más generosidad a lo largo de toda una vida que el dinero gastado o regalado impulsivamente hoy, y la Escritura nunca le pide al creyente ser imprudente — ni con su familia, ni con sus deudas, ni con su futuro. La pregunta no es riqueza o generosidad. Es si su corazón sostiene cualquiera de las dos con la mano abierta.',
+      verse: {
+        text: 'Haceos amigos por medio de las riquezas injustas, para que cuando estas falten, ellos os reciban en las moradas eternas.',
+        reference: 'Lucas 16:9',
+      },
     },
     {
       question: '¿Me va a decir cuánto debo dar o diezmar?',

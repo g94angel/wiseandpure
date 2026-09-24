@@ -9,12 +9,14 @@ const CALENDLY_URL = 'https://calendly.com/angelgiron/30min';
 // hydrates normally in the browser.
 export default memo(function CalendlyEmbed({ lang }) {
   const url = lang === 'es' ? `${CALENDLY_URL}?locale=es` : CALENDLY_URL;
+  const iframeTitle =
+    lang === 'es' ? 'Agenda de Sabio y Puro' : 'Wise and Pure Scheduling';
 
   return (
     <InlineWidget
       url={url}
       styles={{ height: '700px', width: '100%' }}
-      iframeTitle="Wise and Pure Scheduling"
+      iframeTitle={iframeTitle}
     />
   );
 });

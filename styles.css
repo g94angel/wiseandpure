@@ -15,34 +15,38 @@
   --font-display: 'Cormorant Garamond', serif;
   --font-brand: 'Montserrat', sans-serif;
 
-  /* Blue Cedar palette — inspired by Cedrus atlantica 'Glauca' */
-  --color-primary: #2a5a7f; /* silvery steel-blue needles */
-  --color-success: #2d7a55; /* deep cedar green */
+  /* Olive & Harvest palette — olive green for wise, patient growth (the
+     steward planted "by streams of water"), warm gold for the harvest a
+     faithful steward reaps, and a warm parchment/ivory ground standing in
+     for "pure." Deliberately warmer and more earthen than thewealthcode.dev's
+     cool steel-blue, so the two storefronts read as distinct brands. */
+  --color-primary: #3f6b3a; /* deep olive green */
+  --color-success: #b8863c; /* warm harvest gold */
   --color-danger: #dc3545;
-  --color-dark: #1a2d3f; /* blue-charcoal shadows */
-  --color-light: #eff5f8; /* soft silver-white sky */
-  --color-muted: #6b8fa6; /* muted blue-gray foliage */
+  --color-dark: #2b2520; /* warm charcoal-brown */
+  --color-light: #f7f2e7; /* warm ivory / parchment */
+  --color-muted: #78716c; /* warm stone gray */
 
   /* Bootstrap overrides */
-  --bs-primary: #2a5a7f;
-  --bs-primary-rgb: 42, 90, 127;
-  --bs-success: #2d7a55;
-  --bs-success-rgb: 45, 122, 85;
-  --bs-dark: #1a2d3f;
-  --bs-dark-rgb: 26, 45, 63;
-  --bs-light: #eff5f8;
-  --bs-light-rgb: 239, 245, 248;
-  --bs-secondary: #6b8fa6;
-  --bs-secondary-rgb: 107, 143, 166;
+  --bs-primary: #3f6b3a;
+  --bs-primary-rgb: 63, 107, 58;
+  --bs-success: #b8863c;
+  --bs-success-rgb: 184, 134, 60;
+  --bs-dark: #2b2520;
+  --bs-dark-rgb: 43, 37, 32;
+  --bs-light: #f7f2e7;
+  --bs-light-rgb: 247, 242, 231;
+  --bs-secondary: #78716c;
+  --bs-secondary-rgb: 120, 113, 108;
 
   /* Bootstrap body */
-  --bs-body-bg: #eff5f8;
-  --bs-body-color: #1a2d3f;
-  --bs-body-color-rgb: 26, 45, 63;
+  --bs-body-bg: #f7f2e7;
+  --bs-body-color: #2b2520;
+  --bs-body-color-rgb: 43, 37, 32;
 
   /* Color utilities */
   --color-white: #ffffff;
-  --color-border: rgba(212, 212, 212, 0.643);
+  --color-border: rgba(214, 206, 192, 0.65);
 
   /* Shadow utilities */
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -205,7 +209,7 @@ a {
 
 /* Inline text links (e.g. the "See my web development work" CTA in prose)
    default to Bootstrap's stock #0d6efd blue unless something more specific
-   overrides them -- retheme to the site's cedar palette instead. Nav links,
+   overrides them -- retheme to the site's palette instead. Nav links,
    buttons, and the footer already set their own color and win on
    specificity, so this only touches plain untouched anchors. */
 a {
@@ -217,8 +221,8 @@ a:focus-visible {
   color: var(--color-dark);
 }
 
-/* Text color utilities - cedar palette */
-.text-custom-cedar {
+/* Text color utilities */
+.text-custom-accent {
   color: var(--color-primary) !important;
 }
 
@@ -295,6 +299,38 @@ a:focus-visible {
   color: var(--color-muted);
 }
 
+.philosophy-verse {
+  max-width: 46ch;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.philosophy-verse p {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-primary);
+  margin-bottom: 0.4rem;
+}
+
+.philosophy-verse cite {
+  font-style: normal;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.philosophy-body {
+  max-width: 62ch;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophy-body p:last-child {
+  margin-bottom: 0;
+}
+
 .home-about {
   max-width: 800px;
   margin: 2rem auto;
@@ -359,27 +395,27 @@ a:focus-visible {
 /* ===============================
    Buttons
 ================================= */
-/* Force cedar blue for all primary buttons */
+/* Force olive green for all primary buttons */
 .btn-primary {
-  --bs-btn-bg: #2a5a7f;
-  --bs-btn-border-color: #2a5a7f;
-  --bs-btn-hover-bg: #1f4d6d;
-  --bs-btn-hover-border-color: #1f4d6d;
-  --bs-btn-active-bg: #1a3a52;
-  --bs-btn-active-border-color: #1a3a52;
-  --bs-btn-disabled-bg: #6b8fa6;
-  --bs-btn-disabled-border-color: #6b8fa6;
+  --bs-btn-bg: #3f6b3a;
+  --bs-btn-border-color: #3f6b3a;
+  --bs-btn-hover-bg: #335930;
+  --bs-btn-hover-border-color: #335930;
+  --bs-btn-active-bg: #274423;
+  --bs-btn-active-border-color: #274423;
+  --bs-btn-disabled-bg: #78716c;
+  --bs-btn-disabled-border-color: #78716c;
 }
 
-/* Force cedar blue for outline buttons too (e.g. the "Text Me" CTA) --
+/* Force olive green for outline buttons too (e.g. the "Text Me" CTA) --
    otherwise Bootstrap falls back to its stock #0d6efd blue. */
 .btn-outline-primary {
-  --bs-btn-color: #2a5a7f;
-  --bs-btn-border-color: #2a5a7f;
-  --bs-btn-hover-bg: #2a5a7f;
-  --bs-btn-hover-border-color: #2a5a7f;
-  --bs-btn-active-bg: #1f4d6d;
-  --bs-btn-active-border-color: #1f4d6d;
+  --bs-btn-color: #3f6b3a;
+  --bs-btn-border-color: #3f6b3a;
+  --bs-btn-hover-bg: #3f6b3a;
+  --bs-btn-hover-border-color: #3f6b3a;
+  --bs-btn-active-bg: #335930;
+  --bs-btn-active-border-color: #335930;
 }
 
 button[type='submit'] {
@@ -676,6 +712,26 @@ button:disabled {
   margin: 0;
 }
 
+.faq-verse {
+  margin: 1rem 0 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-primary);
+}
+
+.faq-verse p {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.faq-verse cite {
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
 /* ===============================
    Misc Elements
 ================================= */
@@ -962,6 +1018,10 @@ p {
 
   .approach-proof {
     font-size: 0.9rem;
+  }
+
+  .philosophy-verse p {
+    font-size: 1.15rem;
   }
 
   .testimonial-lead p {

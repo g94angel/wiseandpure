@@ -1,4 +1,4 @@
-import { PAGE_META, SITE_KEYWORDS } from './content';
+import { COPY, PAGE_META, SITE_KEYWORDS } from './content';
 import { LANGS, SITE_URL, langFromPath, urlFor } from './config/site';
 
 /**
@@ -47,7 +47,7 @@ export function buildMeta(pageKey) {
       { property: 'og:image:height', content: '630' },
       { property: 'og:image:alt', content: meta.ogTitle },
       { property: 'og:locale', content: lang === 'es' ? 'es_US' : 'en_US' },
-      { property: 'og:site_name', content: 'Wise and Pure' },
+      { property: 'og:site_name', content: COPY[lang].siteName },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: meta.ogTitle },
       { name: 'twitter:description', content: meta.ogDescription },
@@ -70,7 +70,7 @@ export function professionalServiceJsonLd(lang) {
     'script:ld+json': {
       '@context': 'https://schema.org',
       '@type': 'ProfessionalService',
-      name: 'Wise and Pure',
+      name: COPY[lang].siteName,
       description: PAGE_META[lang].home.description,
       url: urlFor('home', lang),
       founder: {
@@ -94,7 +94,9 @@ export function faqJsonLd(faqItems) {
         name: item.question,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: item.answer,
+          text: item.verse
+            ? `${item.answer} "${item.verse.text}" (${item.verse.reference})`
+            : item.answer,
         },
       })),
     },

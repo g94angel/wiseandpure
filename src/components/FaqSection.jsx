@@ -46,6 +46,12 @@ export default memo(function FaqSection({ title, faq, headingLevel = 'h1' }) {
                   hidden={!isOpen}
                 >
                   <p>{item.answer}</p>
+                  {item.verse && (
+                    <blockquote className="faq-verse">
+                      <p>&ldquo;{item.verse.text}&rdquo;</p>
+                      <cite>{item.verse.reference}</cite>
+                    </blockquote>
+                  )}
                 </div>
               </div>
             );
