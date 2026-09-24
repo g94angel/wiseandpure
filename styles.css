@@ -1,0 +1,1161 @@
+@media (max-width: 480px) {
+  .navbar-brand-text {
+    font-size: 0.85rem;
+    letter-spacing: 0.3em;
+  }
+}
+/* ===============================
+   CSS Variables (defined first for cascade priority)
+================================= */
+:root {
+  --spacing-lg: 30px;
+  --spacing-md: 20px;
+  --transition-default: transform 0.3s ease-in-out;
+  --font-body: 'Montserrat', sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+  --font-brand: 'Montserrat', sans-serif;
+
+  /* Blue Cedar palette — inspired by Cedrus atlantica 'Glauca' */
+  --color-primary: #2a5a7f; /* silvery steel-blue needles */
+  --color-success: #2d7a55; /* deep cedar green */
+  --color-danger: #dc3545;
+  --color-dark: #1a2d3f; /* blue-charcoal shadows */
+  --color-light: #eff5f8; /* soft silver-white sky */
+  --color-muted: #6b8fa6; /* muted blue-gray foliage */
+
+  /* Bootstrap overrides */
+  --bs-primary: #2a5a7f;
+  --bs-primary-rgb: 42, 90, 127;
+  --bs-success: #2d7a55;
+  --bs-success-rgb: 45, 122, 85;
+  --bs-dark: #1a2d3f;
+  --bs-dark-rgb: 26, 45, 63;
+  --bs-light: #eff5f8;
+  --bs-light-rgb: 239, 245, 248;
+  --bs-secondary: #6b8fa6;
+  --bs-secondary-rgb: 107, 143, 166;
+
+  /* Bootstrap body */
+  --bs-body-bg: #eff5f8;
+  --bs-body-color: #1a2d3f;
+  --bs-body-color-rgb: 26, 45, 63;
+
+  /* Color utilities */
+  --color-white: #ffffff;
+  --color-border: rgba(212, 212, 212, 0.643);
+
+  /* Shadow utilities */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 6px 16px rgba(0, 0, 0, 0.3);
+  --shadow-card: 4px 4px 10px rgba(0, 0, 0, 0.05);
+
+  /* Animation/Transition utilities */
+  --transition-fast: transform 0.2s ease-in-out;
+  --transition-slow: all 0.5s ease-in-out;
+}
+
+/* ===============================
+   Base & General Styles
+================================= */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: large;
+  color: var(--color-dark);
+}
+
+/* Guard against horizontal scroll on <html> only. Setting it on <body> too
+   makes the body its own scroll container, which silently breaks every
+   position: sticky inside it (the site header included).
+
+   The dark background here is deliberate and separate: <html> paints the
+   canvas -- what iOS exposes when the page rubber-bands past either end --
+   while <body> paints only its own box. Giving them different colors means an
+   overscroll reveals the same dark as the header and footer rather than a
+   blank slab of page background, which is what read as "a ton of space". */
+html {
+  overflow-x: hidden;
+  background-color: var(--color-dark);
+}
+
+body {
+  background-color: var(--color-light);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* ===============================
+   Site Footer
+================================= */
+.site-footer {
+  background-color: var(--color-dark);
+  color: rgba(255, 255, 255, 0.75);
+  padding: 2.5rem 1.5rem;
+}
+
+.site-footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.site-footer-brand {
+  font-family: var(--font-brand);
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+}
+
+.site-footer-nav a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.site-footer-nav a:hover,
+.site-footer-brand:hover {
+  color: #fff;
+}
+
+.site-footer-legal {
+  max-width: 46ch;
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* At the very bottom of the page the floating menu button covers the last
+   ~90px, which lands squarely on the legal line. Clear it, but only at the
+   widths where that button actually renders. */
+@media (max-width: 1323.98px) {
+  .site-footer {
+    padding-bottom: 6rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.authority-title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-brand);
+  font-size: 1.15rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.navbar-brand-text {
+  font-family: var(--font-brand);
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-nav,
+.nav-link,
+button,
+input,
+textarea,
+label,
+p,
+li,
+span,
+a {
+  font-family: var(--font-body);
+}
+
+/* Inline text links (e.g. the "See my web development work" CTA in prose)
+   default to Bootstrap's stock #0d6efd blue unless something more specific
+   overrides them -- retheme to the site's cedar palette instead. Nav links,
+   buttons, and the footer already set their own color and win on
+   specificity, so this only touches plain untouched anchors. */
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--color-dark);
+}
+
+/* Text color utilities - cedar palette */
+.text-custom-cedar {
+  color: var(--color-primary) !important;
+}
+
+/* Icon-only breadcrumb link (web dev funnel) -- plain arrow instead of
+   Bootstrap's default blue underlined link. */
+.back-arrow-link {
+  display: inline-flex;
+  color: var(--color-muted);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.back-arrow-link:hover,
+.back-arrow-link:focus-visible {
+  color: var(--color-primary);
+}
+
+.authority-strip {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Keeps the order-of-operations explanation at a comfortable measure instead
+   of running the full 800px of .lang-section. */
+.approach-intro {
+  max-width: 62ch;
+  margin: 0 auto 2rem;
+}
+
+.approach-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.hero-trust {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-width: 34ch;
+  margin: 1.75rem auto 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.positioning-band {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem 1rem;
+  text-align: center;
+}
+
+.positioning-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.positioning-body {
+  max-width: 58ch;
+  margin: 0 auto;
+  color: var(--color-dark);
+}
+
+.approach-proof {
+  max-width: 58ch;
+  margin: 1.5rem auto 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-primary);
+  text-align: left;
+  font-size: 0.95rem;
+  color: var(--color-muted);
+}
+
+.home-about {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.home-about-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-about-img {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  object-fit: cover;
+}
+
+.home-about-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-about-text p {
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-lead {
+  max-width: 42ch;
+  margin: 0 auto 1.5rem;
+}
+
+.testimonial-lead p {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+}
+
+.testimonial-lead cite {
+  font-style: normal;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.pull-quote {
+  clear: both;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-primary);
+}
+
+/* ===============================
+   Buttons
+================================= */
+/* Force cedar blue for all primary buttons */
+.btn-primary {
+  --bs-btn-bg: #2a5a7f;
+  --bs-btn-border-color: #2a5a7f;
+  --bs-btn-hover-bg: #1f4d6d;
+  --bs-btn-hover-border-color: #1f4d6d;
+  --bs-btn-active-bg: #1a3a52;
+  --bs-btn-active-border-color: #1a3a52;
+  --bs-btn-disabled-bg: #6b8fa6;
+  --bs-btn-disabled-border-color: #6b8fa6;
+}
+
+/* Force cedar blue for outline buttons too (e.g. the "Text Me" CTA) --
+   otherwise Bootstrap falls back to its stock #0d6efd blue. */
+.btn-outline-primary {
+  --bs-btn-color: #2a5a7f;
+  --bs-btn-border-color: #2a5a7f;
+  --bs-btn-hover-bg: #2a5a7f;
+  --bs-btn-hover-border-color: #2a5a7f;
+  --bs-btn-active-bg: #1f4d6d;
+  --bs-btn-active-border-color: #1f4d6d;
+}
+
+button[type='submit'] {
+  min-width: 180px; /* Adjust based on your longest button text */
+  transition: all 0.3s ease;
+}
+
+button:disabled {
+  background-color: var(--color-muted) !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* ===============================
+   Animations
+================================= */
+
+/* ===============================
+   Carousel
+================================= */
+.carousel {
+  position: relative;
+  max-width: 820px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  border-radius: 1rem;
+  background: transparent;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2.25rem;
+  height: 2.25rem;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* ===============================
+   Cards
+================================= */
+.card,
+.getting-started-card,
+.services-card {
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  transition: var(--transition-default);
+  box-shadow: var(--shadow-card);
+  background: #ffffff;
+}
+
+.card {
+  max-width: 650px;
+  margin: var(--spacing-md) auto;
+  height: auto;
+}
+
+.card-text {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* ===============================
+   Getting Started Section
+================================= */
+.getting-started-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.getting-started-card {
+  width: 100%;
+  max-width: 550px; /* keeps cards centered and balanced on large screens */
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.getting-started-card:hover {
+  transform: scale(1.03);
+}
+
+.getting-started-card h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Who I Help section */
+.services-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.services-card {
+  width: 100%;
+  max-width: 360px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.services-card:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 991.98px) {
+  .services-card {
+    flex: 1 1 100%;
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-card {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: 360px;
+  }
+}
+
+/* ===============================
+   Language & Scripture Sections
+================================= */
+.lang-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  line-height: 1.6;
+  color: var(--color-dark);
+}
+
+/* ===============================
+   Home-page anchor targets
+   Offsets jump-to-section scrolling (nav "Who I Help" / "Testimonials" /
+   "Getting Started" links) so the sticky navbar doesn't cover the heading.
+   Both languages listed: the ids are translated per language, so these must
+   stay in sync with HOME_ANCHORS in src/config/site.js.
+================================= */
+#who-i-help,
+#testimonials,
+#getting-started,
+#a-quien-ayudo,
+#testimonios,
+#como-empezar {
+  scroll-margin-top: 60px;
+}
+
+/* ===============================
+   Form Styles
+================================= */
+
+/* Form response messages */
+#form-response {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  min-height: 1.5em; /* Prevents the layout from jumping when text appears/disappears */
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+#form-response.show {
+  opacity: 1;
+}
+
+#form-response.success {
+  color: #28a745;
+}
+
+#form-response.error,
+#form-response.failure {
+  color: #dc3545;
+}
+
+/* Contact form styling */
+.contact-form {
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-card);
+  background: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* ===============================
+   Images
+================================= */
+.profile-img {
+  border: 1px solid #000;
+  border-radius: 12px;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===============================
+   FAQ Accordion
+================================= */
+.faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+  border-top: 1px solid var(--color-border);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.faq-question {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.faq-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 0.25rem;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--color-dark);
+  transition: color 0.2s ease;
+}
+
+/* The global `span` rule would otherwise pull the question text back to the
+   body font, overriding what it inherits from the button. */
+.faq-trigger span {
+  font-family: inherit;
+}
+
+.faq-trigger:hover {
+  color: var(--color-primary);
+}
+
+.faq-chevron {
+  flex-shrink: 0;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  transition: transform 0.2s ease;
+}
+
+.faq-item.is-open .faq-trigger {
+  color: var(--color-primary);
+}
+
+.faq-item.is-open .faq-chevron {
+  transform: rotate(180deg);
+}
+
+/* No `display` here on purpose: the collapsed panel relies on the browser's
+   default styling for [hidden], which any display declaration would override. */
+.faq-answer {
+  padding: 0 0.25rem 1.25rem;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+/* ===============================
+   Misc Elements
+================================= */
+ul,
+p {
+  font-weight: 400;
+}
+
+/* Language Popup */
+.language-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  width: 90%;
+}
+
+/* ===============================
+   Floating Mobile Nav
+================================= */
+.floating-mobile-nav-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1040;
+}
+
+.floating-mobile-nav {
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  /* Ring in the page background color so the button reads as a control
+     floating above the text it passes over, not a blob sitting on the words. */
+  border: 3px solid var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+.floating-mobile-nav:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.floating-mobile-nav:active {
+  transform: scale(0.95);
+}
+
+.floating-nav-menu {
+  position: absolute;
+  bottom: 4.5rem;
+  right: 0;
+  background: var(--color-dark);
+  border-radius: 0.5rem;
+  padding: 0.15rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.25rem;
+  min-width: 195px;
+  overflow: hidden;
+  animation: slideUp 0.2s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.floating-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.floating-nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.floating-nav-link.lang-toggle {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0.25rem;
+  padding-top: 0.75rem;
+  gap: 0.5rem;
+}
+
+/* ============================================================
+   GLOBAL & WRAPPER STYLES
+============================================================ */
+.navbar-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* ============================================================
+   GETTING STARTED LAYOUT (1491.99px and Above)
+   Unrelated to the navbar — kept at its original breakpoint so
+   the nav changes below don't reflow this section too.
+============================================================ */
+@media (min-width: 1491.99px) {
+  /* default layout for standard "getting started" sections (3-up) */
+  .getting-started-container:not(.value-cards):not(.pricing-grid)
+    .getting-started-card {
+    flex: 1 1 calc(33.333% - 1rem);
+    max-width: 700px;
+  }
+}
+
+/* ============================================================
+   DESKTOP NAV (1324px and Above)
+   Features: Horizontal menu, side borders
+============================================================ */
+@media (min-width: 1324px) {
+  /* Navbar Logic */
+  /* Bootstrap's .navbar wraps by default -- without nowrap, the whole
+     .navbar-collapse (brand + links together don't fit) drops to a second
+     row instead of the links wrapping among themselves. nowrap forces one
+     row always; the letter-spacing/font-size trims below make sure there's
+     actually room for that at these widths, especially in Spanish. */
+  .navbar-expand-custom {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .navbar-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  #navbar-lang-toggle {
+    color: rgba(255, 255, 255, 0.55);
+    padding: 0 15px !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  #navbar-lang-toggle:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+/* Narrow desktop nav (13"-14" laptop range) — same horizontal layout as
+   above, just tighter, so all 7 nav items clear a ~1324-1700px viewport
+   without wrapping. The Spanish labels are longer than English (e.g.
+   "Preguntas Frecuentes"), so this has to reach past common laptop
+   widths like 1512/1536/1600, not just the narrowest 13" range. */
+@media (min-width: 1324px) and (max-width: 1699.98px) {
+  .navbar-nav .nav-link {
+    font-size: 0.85rem;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+/* Brand letter-spacing steps down monotonically as the viewport narrows:
+   0.5em (base, wide desktop) -> 0.45em here -> 0.3em below 480px (with a
+   smaller font-size too, see the max-width:480px rule above). Split out
+   from the nav-link rule above because the brand renders at every width
+   (floating-nav included), not just the 1324-1699.98 desktop-nav band. */
+@media (min-width: 481px) and (max-width: 1699.98px) {
+  .navbar-brand-text {
+    letter-spacing: 0.45em;
+  }
+}
+
+/* ============================================================
+   GENERAL SMALL DEVICE TWEAKS (Under 800px)
+============================================================ */
+@media (max-width: 767.98px) {
+  /* 2rem a side costs a third of a 375px screen once .container and the
+     carousel add their own padding on top. Halve it for phones. */
+  .lang-section {
+    padding: 2rem 1rem;
+  }
+
+  /* Move the arrows below the quote instead of letting them reserve a column
+     of padding down each side — on a phone that padding was squeezing the
+     testimonial into a ~190px ribbon. */
+  .carousel {
+    padding: 0 0 3.25rem;
+    max-width: 100%;
+  }
+  .carousel-item {
+    padding: 1rem 0;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: auto;
+    bottom: 0;
+    transform: none;
+  }
+  .carousel-control-prev {
+    left: calc(50% - 3.25rem);
+  }
+  .carousel-control-next {
+    right: calc(50% - 3.25rem);
+  }
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  /* Stack the portrait above the bio on phones. Floating it left leaves the
+     name and tagline wrapping around a 150px block in ragged 2-3 word lines. */
+  .profile-img {
+    float: none !important;
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 1.25rem !important;
+    box-shadow: none;
+  }
+
+  .authority-strip {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-about {
+    padding: 2rem 1rem;
+  }
+
+  .home-about-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .positioning-band {
+    padding: 0 1rem 1rem;
+  }
+
+  .approach-proof {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-lead p {
+    font-size: 1.35rem;
+  }
+
+  /* Contact Form Spacing */
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+
+  .form-row label {
+    width: 100%;
+    text-align: left;
+  }
+  .submit-btn {
+    width: 100%;
+  }
+}
+
+/* ===============================
+   Pricing Card
+================================= */
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.pricing-card {
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-card);
+  background: #ffffff;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 325px;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.pricing-tier-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.pricing-card-header h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.35rem;
+  color: var(--color-primary);
+}
+
+/* Education-not-advice notice under the contact form. Deliberately quiet --
+   present and readable, but not competing with the form itself. */
+.contact-disclaimer {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+.hero-recognition {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: var(--color-primary);
+  max-width: 46ch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card-description {
+  color: var(--color-dark);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.pricing-card-amount {
+  text-align: center;
+}
+
+.pricing-card-amount h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.pricing-card .btn {
+  align-self: stretch;
+  margin-top: auto;
+}
+
+/* Toggles the card description for the "who this is for" text. Plain and
+   muted on purpose -- the copy itself ("Click to see...") carries the
+   affordance, so it doesn't need to look like a hyperlink. */
+.pricing-card-toggle {
+  align-self: stretch;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  cursor: pointer;
+}
+
+.pricing-card-toggle:hover {
+  color: var(--color-primary);
+}
+
+@media (max-width: 767.98px) {
+  .pricing-grid {
+    gap: 1.25rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1490.99px) {
+  .pricing-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1491.99px) {
+  .pricing-grid {
+    gap: 1.5rem;
+  }
+}
+
+/* ===============================
+   Accessibility
+================================= */
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .getting-started-card:hover,
+  .services-card:hover,
+  .floating-mobile-nav:hover,
+  .floating-mobile-nav:active {
+    transform: none;
+  }
+
+  .floating-nav-menu {
+    animation: none;
+  }
+}
+
+/* ===============================
+   Desktop/Mobile Specific
+================================= */
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 1323.98px) {
+  .desktop-only .navbar-collapse {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1324px) {
+  .floating-mobile-nav-container {
+    display: none !important;
+  }
+}

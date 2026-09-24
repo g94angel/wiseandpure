@@ -1,0 +1,26 @@
+[build]
+  command = "npm run build"
+  publish = "build/client"
+  functions = "netlify/functions"
+
+# Every real route is a prerendered static file now (see react-router.config.js),
+# so there is no blanket "/* -> /index.html 200" here -- that would shadow the
+# static files and turn every 404 into a 200. Unmatched paths fall through to
+# the SPA fallback shell with a genuine 404 status, which still lets the
+# client-rendered NotFoundPage route (src/pages/NotFoundPage.jsx) take over.
+[[redirects]]
+  from = "/*"
+  to = "/__spa-fallback.html"
+  status = 404
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
