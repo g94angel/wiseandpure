@@ -611,8 +611,8 @@ export const FORM_MESSAGES = {
 
 /** Sitewide <meta name="keywords"> content, applied to every page by buildMeta(). */
 export const SITE_KEYWORDS = {
-  en: 'Christian financial coaching, biblical stewardship, faith-based budgeting, debt-free living, generous giving, Christian personal finance',
-  es: 'coaching financiero cristiano, mayordomía bíblica, presupuesto con fe, vida libre de deudas, generosidad, finanzas personales cristianas',
+  en: 'financial coaching, biblical stewardship, faith-based budgeting, debt-free living, generous giving, personal finance',
+  es: 'coaching financiero, mayordomía bíblica, presupuesto con fe, vida libre de deudas, generosidad, finanzas personales',
 };
 
 /**
@@ -625,17 +625,17 @@ export const SITE_KEYWORDS = {
 export const PAGE_META = {
   en: {
     home: {
-      title: 'Wise and Pure | Christian Financial Coaching',
+      title: 'Wise and Pure | Financial Coaching',
       description:
         'Biblical financial coaching to turn money stress into a clear plan. Budget with purpose, eliminate debt, give generously, and build long-term wealth as a faithful steward.',
       ogTitle: 'Wise and Pure',
       ogDescription:
-        'Christian financial coaching to help you organize cash flow, give generously, and build long-term wealth on biblical principles.',
+        'Financial coaching to help you organize cash flow, give generously, and build long-term wealth on biblical principles.',
     },
     about: {
       title: 'Wise and Pure | About Angel Giron',
       description:
-        'Engineer, investor, and Christian financial coach Angel Giron on the biblical principles and systems behind Wise and Pure.',
+        'Engineer, investor, and financial coach Angel Giron on the biblical principles and systems behind Wise and Pure.',
       ogTitle: 'About Angel Giron | Wise and Pure',
       ogDescription:
         'From $500 to homeowner and investor: the story and biblical principles behind Wise and Pure.',
@@ -651,7 +651,7 @@ export const PAGE_META = {
     results: {
       title: 'Wise and Pure | Coaching Results & Pricing',
       description:
-        'See what past coaching clients have achieved, and simple hourly pricing for Christian financial coaching — no packages, no minimums.',
+        'See what past coaching clients have achieved, and simple hourly pricing for financial coaching — no packages, no minimums.',
       ogTitle: 'Results & Pricing | Wise and Pure',
       ogDescription:
         'Real results from financial coaching clients, billed simply by the hour.',
@@ -659,7 +659,7 @@ export const PAGE_META = {
     faq: {
       title: 'Wise and Pure | Frequently Asked Questions',
       description:
-        'Answers to common questions about Christian financial coaching with Wise and Pure: who it is for, what it costs, and what to expect.',
+        'Answers to common questions about financial coaching with Wise and Pure: who it is for, what it costs, and what to expect.',
       ogTitle: 'FAQ | Wise and Pure',
       ogDescription:
         'Common questions about working with Wise and Pure, answered.',
@@ -670,22 +670,22 @@ export const PAGE_META = {
         'Schedule a free consultation with Wise and Pure to start building a financial system rooted in biblical stewardship.',
       ogTitle: 'Contact Wise and Pure',
       ogDescription:
-        'Get in touch to book your free Christian financial coaching consultation.',
+        'Get in touch to book your free financial coaching consultation.',
     },
   },
   es: {
     home: {
-      title: 'Sabio y Puro | Coaching Financiero Cristiano',
+      title: 'Sabio y Puro | Coaching Financiero',
       description:
         'Coaching financiero bíblico para transformar el estrés por dinero en un plan claro. Presupueste con propósito, elimine deudas, sea generoso y construya patrimonio como un buen mayordomo.',
       ogTitle: 'Sabio y Puro',
       ogDescription:
-        'Coaching financiero cristiano para organizar su flujo de efectivo, ser generoso y construir patrimonio a largo plazo con principios bíblicos.',
+        'Coaching financiero para organizar su flujo de efectivo, ser generoso y construir patrimonio a largo plazo con principios bíblicos.',
     },
     about: {
       title: 'Sabio y Puro | Sobre Ángel Giron',
       description:
-        'Ingeniero, inversionista y coach financiero cristiano Ángel Giron: la historia y los principios bíblicos detrás de Sabio y Puro.',
+        'Ingeniero, inversionista y coach financiero Ángel Giron: la historia y los principios bíblicos detrás de Sabio y Puro.',
       ogTitle: 'Sobre Ángel Giron | Sabio y Puro',
       ogDescription:
         'De $500 a propietario de casa e inversionista: la historia y los principios bíblicos de Sabio y Puro.',
@@ -701,7 +701,7 @@ export const PAGE_META = {
     results: {
       title: 'Sabio y Puro | Resultados y Precios de Coaching',
       description:
-        'Vea lo que han logrado clientes anteriores con coaching financiero cristiano, y precios simples por hora — sin paquetes ni mínimos.',
+        'Vea lo que han logrado clientes anteriores con coaching financiero, y precios simples por hora — sin paquetes ni mínimos.',
       ogTitle: 'Resultados y Precios | Sabio y Puro',
       ogDescription:
         'Resultados reales de clientes de coaching financiero, cobrados simplemente por hora.',
@@ -709,7 +709,7 @@ export const PAGE_META = {
     faq: {
       title: 'Sabio y Puro | Preguntas Frecuentes',
       description:
-        'Respuestas a preguntas comunes sobre el coaching financiero cristiano con Sabio y Puro: para quién es, cuánto cuesta y qué esperar.',
+        'Respuestas a preguntas comunes sobre el coaching financiero con Sabio y Puro: para quién es, cuánto cuesta y qué esperar.',
       ogTitle: 'Preguntas Frecuentes | Sabio y Puro',
       ogDescription:
         'Preguntas comunes sobre trabajar con Sabio y Puro, respondidas.',
@@ -720,7 +720,7 @@ export const PAGE_META = {
         'Agende una consulta gratuita con Sabio y Puro para comenzar a construir un sistema financiero basado en la mayordomía bíblica.',
       ogTitle: 'Contacto | Sabio y Puro',
       ogDescription:
-        'Póngase en contacto para agendar su consulta de coaching financiero cristiano gratuita.',
+        'Póngase en contacto para agendar su consulta de coaching financiero gratuita.',
     },
   },
 };
@@ -735,7 +735,7 @@ export const FAQ = {
   en: [
     {
       question:
-        "What's the difference between a Christian financial coach and a financial advisor?",
+        "What's the difference between a financial coach and a financial advisor?",
       answer:
         'A financial advisor typically manages your money on an ongoing basis, usually charging a fee based on how much you have invested — the more you have, the more they make. I work the opposite way: flat fee, I never touch your accounts or sell you products, and the goal is for you to not need me anymore. You walk away knowing how to run the system yourself.',
     },
@@ -875,7 +875,7 @@ export const FAQ = {
   es: [
     {
       question:
-        '¿Cuál es la diferencia entre un coach financiero cristiano y un asesor financiero?',
+        '¿Cuál es la diferencia entre un coach financiero y un asesor financiero?',
       answer:
         'Un asesor financiero generalmente administra su dinero de forma continua, normalmente cobrando una tarifa basada en cuánto tiene invertido — entre más tenga, más gana el asesor. Yo trabajo al revés: tarifa fija, nunca toco sus cuentas ni le vendo nada, y la meta es que ya no me necesite. Usted termina sabiendo cómo manejar el sistema por su cuenta.',
     },
