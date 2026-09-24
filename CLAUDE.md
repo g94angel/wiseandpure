@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A bilingual (English/Spanish) marketing site for **Wise and Pure**, Angel Giron's Christian financial coaching business — a sibling brand to [The Wealth Code](https://thewealthcode.dev) (Angel's general-audience coaching site), built by cloning that codebase. Wise and Pure serves Christians specifically, coaching financial stewardship from a biblical perspective. Every page is prerendered to static HTML at build time, with English and Spanish each getting their own crawlable URLs — this is what makes the site (and the Spanish content specifically) indexable by search engines. Deployed on Netlify at `wiseandpure.com`.
+A bilingual (English/Spanish) marketing site for **Wise and Pure**, a second storefront for [The Wealth Code, LLC](https://thewealthcode.dev) (Angel Giron's financial coaching business) aimed specifically at Christians, coaching financial stewardship from a biblical perspective. Same legal entity as The Wealth Code, just a different brand/domain and different audience — not a separate company. Built by cloning thewealthcode's codebase into its own repo. Every page is prerendered to static HTML at build time, with English and Spanish each getting their own crawlable URLs — this is what makes the site (and the Spanish content specifically) indexable by search engines. Deployed on Netlify at `wiseandpure.com`.
 
 This repo is intentionally independent from thewealthcode's — no shared package, no synced deploys. Architectural patterns (routing, SSG, forms, email) are meant to evolve the same way in both, but each brand's actual copy, design, and business details are only ever edited here.
 
@@ -47,8 +47,7 @@ src/
   hooks/
     useLang.js           # Derives 'en'|'es' from the current URL
     useContactForm.js     # Form state + submit (used by ContactSection)
-    useTestimonialCarousel.js  # Carousel state (used by TestimonialsSection);
-                        # no-ops gracefully when TESTIMONIALS is empty
+    useTestimonialCarousel.js  # Carousel state (used by TestimonialsSection)
   pages/                # One file per PAGES entry; each computes its own lang via
                         # useLang() and exports `meta` from src/seo.js
     HomePage.jsx          # Long-scroll: hero, who-i-help, testimonials, getting-started,
@@ -72,7 +71,7 @@ scripts/
 - **Form validation** is client-side in `isFormValid()` (`useContactForm.js`). Phone must be exactly 10 digits.
 - **Dev mode bypass**: form submit under `import.meta.env.DEV` just waits 1.5s and shows success — no real email sent. Use `netlify dev` to exercise the real function locally.
 - **Email**: the Netlify function sends two emails via Brevo's HTTP API directly (no SDK) — one notification to Angel, one auto-reply to the client.
-- **`TESTIMONIALS` is intentionally empty** (`src/content.js`) until Wise and Pure has real client testimonials to publish — no fabricated quotes were left in as a placeholder. `TestimonialsSection` hides the carousel entirely when the array is empty rather than rendering an empty shell.
+- **`TESTIMONIALS`** in `src/content.js` reuses the same client testimonials as thewealthcode.dev — real clients Angel has coached who are also Christians, so the quotes carry over rather than needing to be collected fresh for this brand.
 
 ## Environment Variables (Netlify)
 
@@ -106,22 +105,18 @@ All website copy lives in `src/content.js`. To update text (prices, testimonials
 
 ## Outstanding before launch
 
-These were deliberately left as open questions when this site was cloned from thewealthcode.dev, rather than guessed at:
-
-- **Legal entity**: `src/content.js` (`contact.disclaimer`, `footer.rights`)
-  avoids naming an LLC. Confirm whether Wise and Pure operates under a new
-  entity, a DBA of The Wealth Code, LLC, or as a sole proprietorship, and
-  update those two spots accordingly.
-- **Brand assets**: `public/assets/og-image.png` and everything under
-  `public/assets/favicon_io/` are still thewealthcode.dev's placeholder
-  assets, copied over so the build doesn't break. Replace with Wise and
-  Pure's own logo, favicon set, and OG share image before launch.
 - **Brevo senders & Cloudflare Analytics** need their own setup for
   `wiseandpure.com` (see Environment Variables above) — they don't
-  automatically carry over from thewealthcode.
-- **Calendly / SMS number**: `src/components/CalendlyEmbed.jsx` and the
-  "Text Me" link in `ContactSection.jsx` currently reuse Angel's existing
-  calendar and phone number. Confirm whether Wise and Pure should route
-  through the same ones or get its own.
-- **Testimonials**: `TESTIMONIALS` in `src/content.js` is empty by design —
-  add real Wise and Pure client quotes as they come in.
+  automatically carry over from thewealthcode's accounts, even though it's
+  the same legal entity.
+- **Netlify site + DNS**: `wiseandpure.com` isn't pointed at a Netlify site
+  yet — needs a new site created in the Netlify dashboard (or `netlify init`)
+  and the domain's DNS updated to it.
+
+Resolved on purpose, not by default, so noting the reasoning: no new legal
+entity (Wise and Pure is a second brand of The Wealth Code, LLC, reflected in
+`content.js`'s `contact.disclaimer` / `footer.rights`); brand assets
+(favicon, OG image, logo) intentionally carried over unchanged from
+thewealthcode.dev; the Calendly link and "Text Me" number intentionally stay
+Angel's existing ones; testimonials intentionally reuse thewealthcode's real
+client quotes since those clients are Christians too.

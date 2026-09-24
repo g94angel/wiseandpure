@@ -39,6 +39,6 @@ both key off that hostname.
 
 All copy — hero text, bio, FAQ, results, pricing, SEO titles/descriptions —
 lives in `src/content.js`. Edit that file only; no component changes needed
-for a text change. See `CLAUDE.md` → "Outstanding before launch" for the
-handful of business details (legal entity name, brand assets) still left as
-placeholders from cloning thewealthcode.dev's codebase.
+for a text change. See `CLAUDE.md` → "Outstanding before launch" for what's
+still open before this can go live (Brevo/Cloudflare Analytics setup for
+this domain, and pointing `wiseandpure.com` at a Netlify site).

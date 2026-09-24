@@ -61,12 +61,11 @@ export const COPY = {
       "These are the stages I've walked alongside as a coach. Your stage changes what to prioritize first, not whether faithful stewardship works — find yours below.",
     testimonialsTitle: 'Testimonials',
     testimonialsBody:
-      "Wise and Pure is a new home for coaching I've been doing since 2018 — this is where client stories will live as they come in. Interested in being one of the first?",
+      "I've been coaching Christians on their finances since 2018 — from eliminating debt to building investment portfolios. Here's what some of my clients have to say:",
     testimonialsAria: 'Testimonials',
     testimonialsLead: {
-      quote:
-        "Faithful stewardship isn't about restriction — it's about freedom to give, save, and live with an open hand.",
-      author: 'Angel Giron, Founder',
+      quote: 'I’m now saving 51% of my monthly income.',
+      author: 'Ellen H.',
     },
     process: {
       title: 'Getting Started',
@@ -106,11 +105,8 @@ export const COPY = {
         phone: 'Phone',
         message: 'Message',
       },
-      // TODO(angel): confirm the legal entity/business name this should
-      // cite once Wise and Pure's structure is settled (new LLC, DBA of
-      // The Wealth Code LLC, or sole proprietorship) -- see CLAUDE.md.
       disclaimer:
-        "I'm Angel Giron. Through Wise and Pure, I provide financial education from a biblical perspective only — I am not a financial advisor and I do not provide financial, investment, tax, or legal advice. You are solely responsible for your own financial decisions.",
+        "I'm Angel Giron, manager of The Wealth Code, LLC, doing business as Wise and Pure. I provide financial education only, from a biblical perspective — I am not a financial advisor and I do not provide financial advice. You are solely responsible for your own financial decisions.",
     },
     languagePrompt: 'Select Language',
     selectEnglish: 'Select English',
@@ -123,7 +119,7 @@ export const COPY = {
     navAria: 'Main navigation',
     footer: {
       navAria: 'Footer navigation',
-      rights: 'Wise and Pure',
+      rights: 'The Wealth Code, LLC',
       education: 'Financial education from a biblical perspective only — not financial advice.',
     },
   },
@@ -190,12 +186,11 @@ export const COPY = {
       'Estas son las etapas por las que he acompañado a mis clientes como coach. Su etapa cambia en qué enfocarse primero, no si la mayordomía fiel funciona — encuentre la suya abajo.',
     testimonialsTitle: 'Testimonios',
     testimonialsBody:
-      'Wise and Pure es un nuevo hogar para el coaching que he hecho desde 2018 — aquí vivirán las historias de mis clientes conforme lleguen. ¿Le interesa ser de los primeros?',
+      'He estado asesorando a cristianos en sus finanzas desde 2018 — desde eliminar deudas hasta construir carteras de inversión. Aquí está lo que algunos de mis clientes dicen:',
     testimonialsAria: 'Testimonios',
     testimonialsLead: {
-      quote:
-        'La mayordomía fiel no se trata de restricción — se trata de la libertad de dar, ahorrar y vivir con generosidad.',
-      author: 'Ángel Giron, Fundador',
+      quote: 'Ahora ahorro el 51% de mis ingresos mensuales.',
+      author: 'Ellen H.',
     },
     process: {
       title: 'Cómo Empezar',
@@ -236,7 +231,7 @@ export const COPY = {
         message: 'Mensaje',
       },
       disclaimer:
-        'Soy Ángel Giron. A través de Wise and Pure, ofrezco únicamente educación financiera desde una perspectiva bíblica — no soy asesor financiero y no doy asesoramiento financiero, de inversión, fiscal ni legal. Usted es el único responsable de sus propias decisiones financieras.',
+        'Soy Ángel Giron, gerente de The Wealth Code, LLC, operando como Wise and Pure. Ofrezco únicamente educación financiera, desde una perspectiva bíblica — no soy asesor financiero y no doy asesoramiento financiero. Usted es el único responsable de sus propias decisiones financieras.',
     },
     languagePrompt: 'Seleccione idioma',
     selectEnglish: 'Seleccione Inglés',
@@ -249,7 +244,7 @@ export const COPY = {
     navAria: 'Navegación principal',
     footer: {
       navAria: 'Navegación del pie de página',
-      rights: 'Wise and Pure',
+      rights: 'The Wealth Code, LLC',
       education:
         'Únicamente educación financiera desde una perspectiva bíblica — no asesoramiento financiero.',
     },
@@ -333,15 +328,81 @@ export const SERVICES = {
   ],
 };
 
-/**
- * Intentionally empty until Wise and Pure has real client testimonials to
- * feature -- see TestimonialsSection.jsx / useTestimonialCarousel.js, which
- * both handle an empty array gracefully rather than showing placeholder
- * quotes attributed to no one.
- */
 export const TESTIMONIALS = {
-  en: [],
-  es: [],
+  en: [
+    {
+      quote:
+        '“I wish I started working with Angel a long time ago. He recently taught me about investing and gave me the clarity I needed to get started, and since then, I have made significant progress. His coaching fee has already paid for itself many times over. I am excited to help my kids start investing and have their money work for them too! I strongly recommend his services — I feel confident and excited about my retirement plan.”',
+      author: 'Matt H.',
+    },
+    {
+      quote:
+        "“Angel helped my wife and me set up a high-yield savings system to target our specific goals, like saving for a vehicle for my wife's work. He also helped me understand my 401(k) options and how to simplify my portfolio instead of over-diversifying into too many funds I didn't understand. He tailored his teaching to our unique situation, and he genuinely cares. For the first time, I feel confident making my own decisions about my retirement accounts. I highly recommend his services.”",
+      author: 'Brian F.',
+    },
+    {
+      quote:
+        '“I used to be terrified of investing after losing money in the past, but with Angel’s coaching, I’ve learned how investing works. I’m amazed by the progress so far and excited to see how much it will continue to grow in the years ahead. Thanks to Angel, I finally have peace of mind knowing my money is working for me, even in retirement.”',
+      author: 'Cristina V.',
+    },
+    {
+      quote:
+        '“Angel is an honest, exceptional coach who replaced my feeling of being overwhelmed with a sense of total empowerment. He helped me straighten out my accounts and automate my finances, shifting my money from being spent unnecessarily to growing in a high-yield savings account. I’m now saving 51% of my monthly income, and for the first time, I feel like a true steward of my resources. Highly recommended!”',
+      author: 'Ellen H.',
+    },
+    {
+      quote:
+        "“If you're struggling to meet your financial goals, I highly recommend having Angel as your coach. He helped me look at my finances in a structured and motivating way. Thanks to his guidance, I finally feel confident about my financial plan, and I'm on track to be completely debt-free!”",
+      author: 'Victor G.',
+    },
+    {
+      quote:
+        '“For the first time, I’m managing my money without anxiety, and I’ve organized all my credit cards. Working with Angel was a great experience — he gave me a lot of confidence because he truly knows what he’s doing and has the right tools to help. I learned general principles about money management, and my credit score is going up. Thank you for your help!”',
+      author: 'Lulu N.',
+    },
+    {
+      quote:
+        "“Thanks to Angel's coaching, I learned general principles about how money and investing work and feel more confident making my own decisions about retirement accounts. His help was clear, precise, and very patient, which allowed me to understand everything easily. I am very pleased with the progress in my financial education.”",
+      author: 'Pamela V.',
+    },
+  ],
+  es: [
+    {
+      quote:
+        '“Ojalá hubiera empezado a trabajar con Ángel hace mucho tiempo. Recientemente me enseñó sobre inversiones y me dio la claridad que necesitaba para comenzar, y desde entonces, he logrado un progreso significativo. Su tarifa de coaching ya se ha pagado muchas veces. ¡Estoy emocionado de ayudar a mis hijos a comenzar a invertir y hacer que su dinero trabaje para ellos también! Recomiendo encarecidamente sus servicios — me siento seguro y emocionado por mi plan de jubilación.”',
+      author: 'Matt H.',
+    },
+    {
+      quote:
+        '“Ángel ayudó a mi esposa y a mí a establecer un sistema de ahorro de alto rendimiento para alcanzar nuestros objetivos específicos, como ahorrar para un vehículo para el trabajo de mi esposa. También me ayudó a entender mis opciones de 401(k) y cómo simplificar mi cartera en lugar de diversificarla en demasiados fondos que no entendía. Adaptó su enseñanza a nuestra situación única y realmente se preocupa por nosotros. Por primera vez, me siento seguro tomando mis propias decisiones sobre mis cuentas de jubilación. Recomiendo encarecidamente sus servicios.”',
+      author: 'Brian F.',
+    },
+    {
+      quote:
+        '“Antes me aterrorizaba invertir después de haber perdido dinero en el pasado, pero gracias a la ayuda de Ángel he aprendido cómo funciona la inversión. Estoy asombrada por el progreso que he logrado hasta ahora y emocionada por ver cuánto seguirá creciendo en los próximos años. Gracias a Ángel, por fin tengo la tranquilidad de saber que mi dinero está trabajando para mí, incluso durante mi jubilación.”',
+      author: 'Cristina V.',
+    },
+    {
+      quote:
+        '“Ángel es un coach honesto y excepcional que logró transformar mi sentimiento de agobio en un total empoderamiento. Me ayudó a organizar mis cuentas y automatizar mis finanzas, logrando que mi dinero dejara de gastarse innecesariamente para empezar a crecer en una cuenta de ahorros de alto rendimiento. Ahora ahorro el 51% de mis ingresos mensuales y, por primera vez, siento que soy un verdadero administrador de mis recursos. ¡Altamente recomendado!”',
+      author: 'Ellen H.',
+    },
+    {
+      quote:
+        '“Si tienes dificultades para alcanzar tus metas financieras, te recomiendo ampliamente a Ángel como tu coach. Me ayudó a analizar mis finanzas de una manera estructurada y motivadora. Gracias a su guía, finalmente me siento seguro con mi plan financiero, ¡y estoy en camino de estar completamente libre de deudas!”',
+      author: 'Victor G.',
+    },
+    {
+      quote:
+        '“Por primera vez, estoy manejando mi dinero sin ansiedad y he organizado todas mis tarjetas de crédito. Trabajar con Ángel fue una gran experiencia: me transmitió mucha confianza porque realmente sabe lo que hace y cuenta con las herramientas adecuadas para ayudar. Aprendí principios generales sobre el manejo del dinero, y mi puntaje crediticio está mejorando. ¡Gracias por tu ayuda!”',
+      author: 'Lulu N.',
+    },
+    {
+      quote:
+        '“Gracias al coaching de Ángel, aprendí principios generales sobre cómo funciona el dinero y las inversiones, y me siento más seguro tomando mis propias decisiones sobre cuentas de jubilación. Su ayuda fue clara, precisa y muy paciente, lo que me permitió comprenderlo todo fácilmente. Estoy muy satisfecho con los avances en mi educación financiera.”',
+      author: 'Pamela V.',
+    },
+  ],
 };
 
 export const RESULTS = {
