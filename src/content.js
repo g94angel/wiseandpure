@@ -45,10 +45,10 @@ export const COPY = {
     },
     about: {
       title: "Hi, I'm Angel Giron",
-      authorityTitle: 'Engineer • Investor • Christian Financial Coach',
+      authorityTitle: 'Christian • Engineer • Educator',
       imageAlt: 'Picture of Angel Giron',
       paragraphs: [
-        "I started Wise and Pure to teach Christians what I wish someone had taught me when I was younger — not just how money works, but how Scripture calls us to steward it. I learned it in pieces, out of necessity, over years. My job is to show you where your money is going, stop the leaks, and build a system rooted in biblical principles that outlasts our sessions.",
+        'I started Wise and Pure to teach Christians what I wish someone had taught me when I was younger — not just how money works, but how Scripture calls us to steward it. I learned it in pieces, out of necessity, over years. My job is to show you where your money is going, stop the leaks, and build a system rooted in biblical principles that outlasts our sessions.',
         "In July 2020, I had $500 to my name — a low-income season I budgeted through. I'd mastered managing money; growing it was the piece I still needed. So I learned wealth-building from the ground up, starting with automation and paying myself first, all while holding onto the conviction that money is a tool for stewardship, not something to chase for its own sake. Today I'm a software engineer, homeowner, and investor — but the real win is freedom. Money no longer controls my decisions; it works quietly in the background so I can focus on my family, my church, and my community.",
         "Before software engineering, I was a teacher — I loved watching students master what they once thought was impossible. I bring that same approach to coaching: I don't just build you a plan, I make sure you understand it well enough to run it yourself, with confidence that it lines up with what you believe.",
         "Most people see investing as a gamble — from the outside, it looks like a casino. But real investing isn't about picking winners or timing the market. It takes consistency, time, and the same patient trust Scripture calls us to in every other area of life — the least exciting and most reliable force in finance.",
@@ -135,7 +135,8 @@ export const COPY = {
     footer: {
       navAria: 'Footer navigation',
       rights: 'The Wealth Code, LLC',
-      education: 'Financial education from a biblical perspective only — not financial advice.',
+      education:
+        'Financial education from a biblical perspective only — not financial advice.',
     },
   },
   es: {
@@ -185,7 +186,7 @@ export const COPY = {
     },
     about: {
       title: 'Hola, soy Ángel Giron',
-      authorityTitle: 'Ingeniero • Inversionista • Coach Financiero Cristiano',
+      authorityTitle: 'Cristiano • Ingeniero • Educador',
       imageAlt: 'Foto de Ángel Giron',
       paragraphs: [
         'Comencé Sabio y Puro para enseñarle a los cristianos lo que me hubiera gustado que alguien me enseñara cuando era más joven — no solo cómo funciona el dinero, sino cómo nos llama la Escritura a administrarlo. Lo aprendí en partes, por necesidad, a lo largo de los años. Mi trabajo es mostrarle a dónde se está yendo su dinero, detener las fugas y construir un sistema basado en principios bíblicos que siga funcionando después de nuestras sesiones.',
@@ -745,7 +746,7 @@ export const FAQ = {
     },
     {
       question:
-        "You're an engineer and an investor. Why coach at all, and why bring faith into it?",
+        "You're an engineer. Why coach at all, and why bring faith into it?",
       answer:
         "Coaching isn't how I pay my bills — I have a job. That's exactly why I can tell you that you don't need this, or that we're done and you don't need me anymore. I started Wise and Pure because I think money is one of the most talked-about subjects in Scripture and one of the least taught well anywhere, including in church. Nobody sat me down and explained how to manage money either. I want to help Christians build wealth without compromising their convictions, and give generously without wondering if they can afford it.",
     },
@@ -756,7 +757,8 @@ export const FAQ = {
         'No. I coach Christians from a wide range of backgrounds and traditions. What matters is a shared conviction that what we have is entrusted to us, not simply owned by us, and a willingness to build a plan around that.',
     },
     {
-      question: "Isn't investing the same as gambling — and isn't gambling a sin?",
+      question:
+        "Isn't investing the same as gambling — and isn't gambling a sin?",
       answer:
         'No — they work in opposite directions. Gambling manufactures risk for entertainment: the odds are built to favor the house, and money changes hands without creating anything of value. Real investing means buying a share of an actual, productive business — companies that build things, hire people, and generate profit over years — and letting patient, long-term ownership do the work. It is closer to farming than to a casino: you plant, you wait, and consistency does most of the growing. Even the parable of the talents assumes the servants would put money to productive use, not bury it out of fear — the one who was rebuked was the one who did nothing with what he was given.',
       verse: {
@@ -806,7 +808,7 @@ export const FAQ = {
     {
       question: 'Will you tell me how much I should give or tithe?',
       answer:
-        "No — how much and where you give is between you, your household, and your own convictions. What I can help with is building a budget and a system where giving is planned and sustainable, instead of an afterthought or a source of guilt.",
+        'No — how much and where you give is between you, your household, and your own convictions. What I can help with is building a budget and a system where giving is planned and sustainable, instead of an afterthought or a source of guilt.',
     },
     {
       question:
@@ -820,7 +822,7 @@ export const FAQ = {
         'The coaching works the same way regardless of how much you make: the goal is a system — a clear picture of where your money goes, automated saving and giving, and a plan you can run without willpower. Clients have started this process with as little as $500.',
     },
     {
-      question: "What if the cost is a barrier for me right now?",
+      question: 'What if the cost is a barrier for me right now?',
       answer:
         "Reach out anyway. I offer a reduced rate for people who are on a tight budget or just starting out — students, single parents, whatever your situation is. There's no income cutoff or application; just tell me where you're at and we'll figure out a rate that works.",
     },
@@ -884,7 +886,7 @@ export const FAQ = {
     },
     {
       question:
-        'Usted es ingeniero e inversionista. ¿Por qué se dedica a esto, y por qué incluir la fe?',
+        'Usted es ingeniero. ¿Por qué se dedica a esto, y por qué incluir la fe?',
       answer:
         'El coaching no es de lo que vivo — tengo un trabajo. Precisamente por eso puedo decirle que no lo necesita, o que ya terminamos y que no me necesita más. Comencé Sabio y Puro porque creo que el dinero es uno de los temas de los que más se habla en la Escritura y de los que menos se enseña bien, incluso en la iglesia. A mí tampoco nadie se sentó a explicarme cómo manejar el dinero. Quiero ayudar a los cristianos a construir riqueza sin comprometer sus convicciones, y a ser generosos sin preguntarse si pueden costearlo.',
     },
@@ -895,7 +897,8 @@ export const FAQ = {
         'No. Asesoro a cristianos de una amplia variedad de trasfondos y tradiciones. Lo que importa es la convicción compartida de que lo que tenemos se nos ha confiado, no que simplemente nos pertenece, y la disposición a construir un plan alrededor de eso.',
     },
     {
-      question: '¿No es invertir lo mismo que apostar — y no es pecado apostar?',
+      question:
+        '¿No es invertir lo mismo que apostar — y no es pecado apostar?',
       answer:
         'No — funcionan en direcciones opuestas. Apostar fabrica riesgo por entretenimiento: las probabilidades están diseñadas para favorecer a la casa, y el dinero cambia de manos sin que se cree ningún valor real. Invertir de verdad significa comprar una parte de un negocio real y productivo — empresas que construyen cosas, emplean personas y generan ganancias durante años — y dejar que la paciencia y el tiempo hagan el trabajo. Se parece más a sembrar que a un casino: usted siembra, espera, y la constancia hace crecer el resto. Incluso la parábola de los talentos asume que los siervos pondrían el dinero a trabajar de forma productiva, no que lo enterrarían por miedo — al que reprendieron fue al que no hizo nada con lo que se le confió.',
       verse: {
@@ -904,7 +907,8 @@ export const FAQ = {
       },
     },
     {
-      question: '¿No dice la Biblia que el dinero es la raíz de todos los males?',
+      question:
+        '¿No dice la Biblia que el dinero es la raíz de todos los males?',
       answer:
         'Ese es uno de los versículos más citados fuera de contexto en toda la Escritura — y en realidad no dice eso. Pablo escribió que el amor al dinero es raíz de todos los males, no el dinero en sí. El problema nunca fue el billete; es la postura del corazón hacia él — la ansiedad, la codicia, o convertirlo en un ídolo. La Escritura trata la riqueza material como algo que se debe administrar con sabiduría, e incluso multiplicar, y está llena de personas que fueron ricas y fieles al mismo tiempo. La meta aquí no es evitar el dinero por culpa — es sostenerlo con la mano abierta, no con el puño cerrado.',
       verse: {
@@ -958,7 +962,8 @@ export const FAQ = {
         'El coaching funciona de la misma manera sin importar cuánto gane: la meta es un sistema — una imagen clara de a dónde va su dinero, ahorro y generosidad automatizados, y un plan que pueda seguir sin depender de la fuerza de voluntad. Algunos clientes comenzaron este proceso con tan solo $500.',
     },
     {
-      question: '¿Qué pasa si el costo es una limitante para mí en este momento?',
+      question:
+        '¿Qué pasa si el costo es una limitante para mí en este momento?',
       answer:
         'Contácteme de todos modos. Ofrezco una tarifa reducida para personas con un presupuesto ajustado o que apenas están comenzando — estudiantes, padres o madres solteras, la situación que sea. No hay un límite de ingresos ni una solicitud que llenar; solo cuénteme su situación y encontraremos una tarifa que funcione.',
     },
