@@ -331,6 +331,11 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
+.philosophy-cta {
+  display: inline-block;
+  font-weight: 600;
+}
+
 .home-about {
   max-width: 800px;
   margin: 2rem auto;

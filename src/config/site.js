@@ -34,6 +34,13 @@ export const PAGES = [
     es: '/es/acerca-de',
   },
   {
+    key: 'philosophy',
+    file: 'pages/PhilosophyPage.jsx',
+    inNav: false,
+    en: '/why-the-name',
+    es: '/es/por-que-el-nombre',
+  },
+  {
     key: 'results',
     file: 'pages/ResultsPage.jsx',
     inNav: true,

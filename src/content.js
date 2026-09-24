@@ -28,6 +28,9 @@ export const COPY = {
       verseText:
         'Behold, I am sending you out as sheep in the midst of wolves, so be wise as serpents and pure as doves.',
       verseReference: 'Matthew 10:16',
+      teaser:
+        "The name isn't just wordplay — it comes from how Jesus told His disciples to handle money, and it's the whole philosophy behind this coaching.",
+      cta: 'The story behind the name',
       paragraphs: [
         'The name comes from Matthew 10:16, where Jesus tells His disciples to be "wise as serpents and pure as doves." He was not talking about money there — but a few chapters later, in Luke 16, He makes almost the same point about it directly.',
         'In Luke 16, Jesus tells a strange parable about a dishonest manager who gets caught, then acts shrewdly to secure his future before he is let go — and Jesus praises his cleverness, not his ethics: "the sons of this age are more prudent in their dealings with their own generation than the sons of light." He tells His own followers to be just as sharp about money, only aimed at something that lasts: "Make friends for yourselves by means of the mammon of unrighteousness, so that when it fails, they may receive you into the eternal tabernacles." (Luke 16:9)',
@@ -165,6 +168,9 @@ export const COPY = {
       verseText:
         'He aquí, yo os envío como a ovejas en medio de lobos; sed, pues, sabios como serpientes, y puros como palomas.',
       verseReference: 'Mateo 10:16',
+      teaser:
+        'El nombre no es solo un juego de palabras — viene de cómo Jesús les dijo a sus discípulos que manejaran el dinero, y es toda la filosofía detrás de este coaching.',
+      cta: 'La historia detrás del nombre',
       paragraphs: [
         'El nombre viene de Mateo 10:16, donde Jesús les dice a sus discípulos que sean "sabios como serpientes, y puros como palomas." No estaba hablando de dinero en ese momento, pero unos capítulos después, en Lucas 16, dice casi lo mismo directamente sobre el tema.',
         'En Lucas 16, Jesús cuenta una parábola extraña sobre un administrador deshonesto que es descubierto, y que actúa con astucia para asegurar su futuro antes de perder su puesto — y Jesús elogia su astucia, no su ética: "los hijos de este siglo son más sagaces en su generación que los hijos de luz." Después les pide a sus propios seguidores que sean igual de agudos con el dinero, pero apuntando a algo que sí permanece: "Haceos amigos de las riquezas de iniquidad, para que cuando faltareis, os reciban en las moradas eternas" (Lucas 16:9).',
@@ -633,6 +639,14 @@ export const PAGE_META = {
       ogDescription:
         'From $500 to homeowner and investor: the story and biblical principles behind Wise and Pure.',
     },
+    philosophy: {
+      title: 'Wise and Pure | Why "Wise and Pure"',
+      description:
+        'The Bible verse behind the name Wise and Pure — Matthew 10:16 and Luke 16 — and what it means to be wise and pure with money.',
+      ogTitle: 'Why "Wise and Pure" | Wise and Pure',
+      ogDescription:
+        'The story behind the name: wise like the world is wise about money, pure the way it rarely is.',
+    },
     results: {
       title: 'Wise and Pure | Coaching Results & Pricing',
       description:
@@ -674,6 +688,14 @@ export const PAGE_META = {
       ogTitle: 'Sobre Ángel Giron | Sabio y Puro',
       ogDescription:
         'De $500 a propietario de casa e inversionista: la historia y los principios bíblicos de Sabio y Puro.',
+    },
+    philosophy: {
+      title: 'Sabio y Puro | Por qué "Sabio y Puro"',
+      description:
+        'El versículo bíblico detrás del nombre Sabio y Puro — Mateo 10:16 y Lucas 16 — y lo que significa ser sabio y puro con el dinero.',
+      ogTitle: 'Por qué "Sabio y Puro" | Sabio y Puro',
+      ogDescription:
+        'La historia detrás del nombre: sabios como el mundo es sabio con el dinero, puros como rara vez lo es.',
     },
     results: {
       title: 'Sabio y Puro | Resultados y Precios de Coaching',

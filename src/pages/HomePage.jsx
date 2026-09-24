@@ -26,7 +26,7 @@ export default function HomePage() {
     <main role="main">
       <HeroSection copy={copy} />
 
-      <PhilosophySection copy={copy} />
+      <PhilosophySection copy={copy} lang={lang} />
 
       <PositioningSection copy={copy} />
 

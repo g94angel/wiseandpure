@@ -1,12 +1,10 @@
 import { memo } from 'react';
-import { Link } from 'react-router';
-import { pathFor } from '../config/site';
 
-export default memo(function PhilosophySection({ copy, lang }) {
+export default memo(function PhilosophyDetailSection({ copy }) {
   return (
     <section className="lang-section philosophy-section">
       <div className="container">
-        <h2 className="text-center mb-4">{copy.philosophy.title}</h2>
+        <h1 className="text-center mb-4">{copy.philosophy.title}</h1>
 
         <blockquote className="philosophy-verse">
           <p>&ldquo;{copy.philosophy.verseText}&rdquo;</p>
@@ -14,10 +12,9 @@ export default memo(function PhilosophySection({ copy, lang }) {
         </blockquote>
 
         <div className="philosophy-body">
-          <p>{copy.philosophy.teaser}</p>
-          <Link className="philosophy-cta" to={pathFor('philosophy', lang)}>
-            {copy.philosophy.cta}
-          </Link>
+          {copy.philosophy.paragraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </div>
       </div>
     </section>
