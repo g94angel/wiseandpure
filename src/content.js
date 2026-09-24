@@ -760,17 +760,27 @@ export const FAQ = {
       answer:
         'No — they work in opposite directions. Gambling manufactures risk for entertainment: the odds are built to favor the house, and money changes hands without creating anything of value. Real investing means buying a share of an actual, productive business — companies that build things, hire people, and generate profit over years — and letting patient, long-term ownership do the work. It is closer to farming than to a casino: you plant, you wait, and consistency does most of the growing. Even the parable of the talents assumes the servants would put money to productive use, not bury it out of fear — the one who was rebuked was the one who did nothing with what he was given.',
       verse: {
-        text: 'You should have put my money on deposit with the bankers, so that when I returned I would have received it back with interest.',
+        text: 'Therefore you should have deposited my money with the money changers; and when I came, I would have recovered what is mine with interest.',
         reference: 'Matthew 25:27',
       },
     },
     {
       question: "Doesn't the Bible say money is the root of all evil?",
       answer:
-        "That's one of the most misquoted verses in Scripture — it doesn't actually say that. Paul wrote that the love of money is a root of all kinds of evil, not money itself. The problem was never the dollar bill; it's the heart's posture toward it — anxious grasping, greed, or making it an idol. Scripture treats material wealth as something to be stewarded wisely and even multiplied, and it's full of people who were both wealthy and faithful. The goal here isn't to avoid money out of guilt — it's to hold it with an open hand instead of a closed fist.",
+        "That's one of the most misquoted verses in Scripture — it doesn't actually say that. Paul wrote that the love of money is a root of all evils, not money itself. The problem was never the dollar bill; it's the heart's posture toward it — anxious grasping, greed, or making it an idol. Scripture treats material wealth as something to be stewarded wisely and even multiplied, and it's full of people who were both wealthy and faithful. The goal here isn't to avoid money out of guilt — it's to hold it with an open hand instead of a closed fist.",
       verse: {
-        text: 'For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs.',
+        text: 'For the love of money is a root of all evils, because of which some, aspiring after money, have been led away from the faith and pierced themselves through with many pains.',
         reference: '1 Timothy 6:10',
+      },
+    },
+    {
+      question:
+        "Shouldn't Christians avoid pursuing wealth, or just be content with less?",
+      answer:
+        "Contentment and ambition aren't opposites here — Scripture holds both. Moses told Israel plainly that it is God who gives the ability to produce wealth — not as a temptation to resist, but as a strength to steward well. Being poor isn't a virtue any more than being rich is a sin; the goal is a stable position — free of debt, able to give generously, able to help rather than always needing to be helped — because that position is what lets you actually serve your family, your church, and your community instead of just surviving. Pursuing wealth to hoard it or worship it is the danger Scripture warns about. Pursuing it to be in a position to give and to lead is what it's for.",
+      verse: {
+        text: 'But you shall remember Jehovah your God, for it is He who gives you strength to gain wealth, so that He may establish His covenant, which He swore to your fathers, as it is this day.',
+        reference: 'Deuteronomy 8:18',
       },
     },
     {
@@ -779,7 +789,7 @@ export const FAQ = {
       answer:
         "Trusting God and planning carefully aren't opposites — Scripture asks for both. In the parable of the talents, the master didn't hand out money and tell his servants to do nothing and simply wait on faith; he expected them to put it to work and multiply it, and the one who didn't was rebuked, not praised for his faith. A budget simply puts on paper what you already believe about your priorities, trusting God with the outcome. A plan is not a lack of faith — it is what faithfulness with 'the least' looks like in practice.",
       verse: {
-        text: 'He who is faithful in the least is faithful also in much, and he who is unrighteous in the least is unrighteous also in much.',
+        text: 'He who is faithful in the least is faithful also in much; and he who is unrighteous in the least is unrighteous also in much.',
         reference: 'Luke 16:10',
       },
     },
@@ -789,7 +799,7 @@ export const FAQ = {
       answer:
         "Generosity and building wealth aren't in competition — done right, one fuels the other. In Luke 16, Jesus tells His disciples to use worldly wealth wisely and generously, so that it makes friends and does eternal good instead of sitting idle or being wasted. A portfolio that grows over decades isn't hoarding; it's a tool that can fund far more generosity over a lifetime than money spent or given away impulsively today, and Scripture never asks believers to be reckless — with a family, with debt, or with the future. The question isn't wealth or giving. It's whether your heart is holding either one loosely.",
       verse: {
-        text: 'Use worldly wealth to gain friends for yourselves, so that when it is gone, you will be welcomed into eternal dwellings.',
+        text: 'And I say to you, Make friends for yourselves by means of the mammon of unrighteousness, so that when it fails, they may receive you into the eternal tabernacles.',
         reference: 'Luke 16:9',
       },
     },
@@ -884,7 +894,7 @@ export const FAQ = {
       answer:
         'No — funcionan en direcciones opuestas. Apostar fabrica riesgo por entretenimiento: las probabilidades están diseñadas para favorecer a la casa, y el dinero cambia de manos sin que se cree ningún valor real. Invertir de verdad significa comprar una parte de un negocio real y productivo — empresas que construyen cosas, emplean personas y generan ganancias durante años — y dejar que la paciencia y el tiempo hagan el trabajo. Se parece más a sembrar que a un casino: usted siembra, espera, y la constancia hace crecer el resto. Incluso la parábola de los talentos asume que los siervos pondrían el dinero a trabajar de forma productiva, no que lo enterrarían por miedo — al que reprendieron fue al que no hizo nada con lo que se le confió.',
       verse: {
-        text: 'Por eso debías haber puesto mi dinero en el banco, para que al regresar yo, lo recibiera con los intereses.',
+        text: 'Por tanto, debías haber entregado mi dinero a los banqueros, y al venir yo, hubiera recobrado lo que es mío con los intereses.',
         reference: 'Mateo 25:27',
       },
     },
@@ -893,8 +903,18 @@ export const FAQ = {
       answer:
         'Ese es uno de los versículos más citados fuera de contexto en toda la Escritura — y en realidad no dice eso. Pablo escribió que el amor al dinero es raíz de todos los males, no el dinero en sí. El problema nunca fue el billete; es la postura del corazón hacia él — la ansiedad, la codicia, o convertirlo en un ídolo. La Escritura trata la riqueza material como algo que se debe administrar con sabiduría, e incluso multiplicar, y está llena de personas que fueron ricas y fieles al mismo tiempo. La meta aquí no es evitar el dinero por culpa — es sostenerlo con la mano abierta, no con el puño cerrado.',
       verse: {
-        text: 'Porque raíz de todos los males es el amor al dinero, el cual codiciando algunos, se extraviaron de la fe, y fueron traspasados de muchos dolores.',
+        text: 'Porque raíz de todos los males es el amor al dinero, el cual persiguiendo algunos, se extraviaron de la fe, y fueron traspasados de muchos dolores.',
         reference: '1 Timoteo 6:10',
+      },
+    },
+    {
+      question:
+        '¿No deberían los cristianos evitar buscar riqueza, o simplemente conformarse con tener menos?',
+      answer:
+        'El contentamiento y la ambición no son opuestos aquí — la Escritura sostiene ambas cosas. Moisés le dijo claramente a Israel que es Dios quien da el poder para producir riqueza — no como una tentación que resistir, sino como una fuerza que administrar bien. Ser pobre no es una virtud, así como ser rico tampoco es un pecado; la meta es una posición estable — libre de deudas, capaz de dar con generosidad, capaz de ayudar en lugar de necesitar siempre ayuda — porque esa posición es lo que le permite servir de verdad a su familia, a su iglesia y a su comunidad, en lugar de simplemente sobrevivir. Buscar riqueza para acapararla o para adorarla es el peligro del que advierte la Escritura. Buscarla para poder dar y liderar es para lo que existe.',
+      verse: {
+        text: 'Antes bien, te acordarás de Jehová tu Dios, porque Él te da las fuerzas para adquirir riquezas, a fin de confirmar Su pacto que juró a tus padres, como se ve en este día.',
+        reference: 'Deuteronomio 8:18',
       },
     },
     {
@@ -903,7 +923,7 @@ export const FAQ = {
       answer:
         "Confiar en Dios y planear con cuidado no son opuestos — la Escritura pide ambas cosas. En la parábola de los talentos, el amo no repartió dinero y les dijo a sus siervos que no hicieran nada y solo esperaran con fe; esperaba que lo pusieran a trabajar y lo multiplicaran, y al que no lo hizo lo reprendió, no lo elogió por su fe. Un presupuesto simplemente pone por escrito lo que ya cree sobre sus prioridades, confiando en Dios con el resultado. Un plan no es falta de fe — es cómo se ve, en la práctica, la fidelidad en 'lo muy poco'.",
       verse: {
-        text: 'El que es fiel en lo muy poco, es fiel también en lo mucho; y el que en lo muy poco es injusto, también en lo mucho es injusto.',
+        text: 'El que es fiel en lo muy poco, también en lo más es fiel; y el que en lo muy poco es injusto, también en lo más es injusto.',
         reference: 'Lucas 16:10',
       },
     },
@@ -913,7 +933,7 @@ export const FAQ = {
       answer:
         'La generosidad y construir riqueza no compiten entre sí — hechas bien, una impulsa a la otra. En Lucas 16, Jesús les dice a sus discípulos que usen la riqueza de este mundo con sabiduría y generosidad, para que produzca amigos y haga bien eterno, en lugar de quedarse ociosa o desperdiciarse. Un portafolio que crece durante décadas no es acaparar; es una herramienta que puede financiar mucha más generosidad a lo largo de toda una vida que el dinero gastado o regalado impulsivamente hoy, y la Escritura nunca le pide al creyente ser imprudente — ni con su familia, ni con sus deudas, ni con su futuro. La pregunta no es riqueza o generosidad. Es si su corazón sostiene cualquiera de las dos con la mano abierta.',
       verse: {
-        text: 'Haceos amigos por medio de las riquezas injustas, para que cuando estas falten, ellos os reciban en las moradas eternas.',
+        text: 'Y Yo os digo: Ganad amigos por medio de las riquezas de injusticia, para que cuando éstas falten, os reciban en los tabernáculos eternos.',
         reference: 'Lucas 16:9',
       },
     },
