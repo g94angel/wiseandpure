@@ -820,6 +820,11 @@ export const FAQ = {
         'The coaching works the same way regardless of how much you make: the goal is a system — a clear picture of where your money goes, automated saving and giving, and a plan you can run without willpower. Clients have started this process with as little as $500.',
     },
     {
+      question: "What if the cost is a barrier for me right now?",
+      answer:
+        "Reach out anyway. I offer a reduced rate for people who are on a tight budget or just starting out — students, single parents, whatever your situation is. There's no income cutoff or application; just tell me where you're at and we'll figure out a rate that works.",
+    },
+    {
       question: 'Who is this not for?',
       answer:
         'If you want stock picks, day trading, or a get-rich-quick scheme, I am not your guy, and I would rather tell you that now than take your money — that mindset also tends to work against patient, faithful stewardship. I also cannot do the work for you. What I ask is that you are willing to put in the effort and actually want results — not just hoping things work out on their own. If that is you, everything else here is learnable.',
@@ -951,6 +956,11 @@ export const FAQ = {
       question: '¿Qué pasa si no tengo un ingreso alto?',
       answer:
         'El coaching funciona de la misma manera sin importar cuánto gane: la meta es un sistema — una imagen clara de a dónde va su dinero, ahorro y generosidad automatizados, y un plan que pueda seguir sin depender de la fuerza de voluntad. Algunos clientes comenzaron este proceso con tan solo $500.',
+    },
+    {
+      question: '¿Qué pasa si el costo es una limitante para mí en este momento?',
+      answer:
+        'Contácteme de todos modos. Ofrezco una tarifa reducida para personas con un presupuesto ajustado o que apenas están comenzando — estudiantes, padres o madres solteras, la situación que sea. No hay un límite de ingresos ni una solicitud que llenar; solo cuénteme su situación y encontraremos una tarifa que funcione.',
     },
     {
       question: '¿Para quién no es esto?',

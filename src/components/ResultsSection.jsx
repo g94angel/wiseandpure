@@ -26,7 +26,7 @@ export default memo(function ResultsSection({ copy, results }) {
             </p>
 
             <div className="pricing-card-amount">
-              <h4 className="fw-bold text-custom-cedar">
+              <h4 className="fw-bold text-custom-accent">
                 {copy.results.rate}
               </h4>
             </div>
