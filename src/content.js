@@ -10,7 +10,7 @@ export const COPY = {
       'FAQ',
       'Contact',
     ],
-    heroTitle: 'Steward your money well. Live and give with an open hand.',
+    heroTitle: 'Steward your money well. Live with an open hand.',
     heroLead:
       "Most Christians never talk about money at church — yet it touches nearly every decision we make. If you've felt caught between what you earn, what you owe, and what you believe about stewardship, you're in good company, and it's more fixable than it feels: a few focused sessions, and you'll have a plan grounded in biblical principles that you understand and can run on your own.",
     heroCta: 'Book Your Free Consultation',
@@ -26,7 +26,7 @@ export const COPY = {
     philosophy: {
       title: 'Why "Wise and Pure"',
       verseText:
-        'Behold, I am sending you out as sheep in the midst of wolves, so be wise as serpents and pure as doves.',
+        'Behold, I send you forth as sheep in the midst of wolves. Be therefore wise as serpents and pure as doves.',
       verseReference: 'Matthew 10:16',
       teaser:
         "The name isn't just wordplay — it comes from how Jesus told His disciples to handle money, and it's the whole philosophy behind this coaching.",
@@ -35,7 +35,7 @@ export const COPY = {
         'The name comes from Matthew 10:16, where Jesus tells His disciples to be "wise as serpents and pure as doves." He was not talking about money there — but a few chapters later, in Luke 16, He makes almost the same point about it directly.',
         'In Luke 16, Jesus tells a strange parable about a dishonest manager who gets caught, then acts shrewdly to secure his future before he is let go — and Jesus praises his cleverness, not his ethics: "the sons of this age are more prudent in their dealings with their own generation than the sons of light." He tells His own followers to be just as sharp about money, only aimed at something that lasts: "Make friends for yourselves by means of the mammon of unrighteousness, so that when it fails, they may receive you into the eternal tabernacles." (Luke 16:9)',
         'That is the wise half. The pure half is what keeps it from curdling into greed: "He who is faithful in the least is faithful also in much" (Luke 16:10) — how you handle a budget, a credit card, or a paycheck is the training ground for everything else you will ever be trusted with. And underneath both halves is the same warning: "You cannot serve God and mammon" (Luke 16:13). Money makes a good servant and a terrible master.',
-        'That is the whole philosophy behind this coaching. Be wise: learn how budgeting, debt, and investing actually work instead of avoiding the subject or hoping it sorts itself out. Be pure: hold it with an open hand, free of both greed and fear, so it can do what it is for — providing for your family, funding your generosity, and freeing you up for what actually matters.',
+        'That is the whole philosophy behind this coaching. Be wise: learn how budgeting, debt, and investing actually work instead of avoiding the subject or hoping it sorts itself out. Be pure: hold it with an open hand, free of both greed and fear, so it can do what it is for — providing for your family, and freeing you up for what actually matters.',
       ],
     },
     homeAbout: {
@@ -52,7 +52,7 @@ export const COPY = {
         "In July 2020, I had $500 to my name — a low-income season I budgeted through. I'd mastered managing money; growing it was the piece I still needed. So I learned wealth-building from the ground up, starting with automation and paying myself first, all while holding onto the conviction that money is a tool for stewardship, not something to chase for its own sake. Today I'm a software engineer, homeowner, and investor — but the real win is freedom. Money no longer controls my decisions; it works quietly in the background so I can focus on my family, my church, and my community.",
         "Before software engineering, I was a teacher — I loved watching students master what they once thought was impossible. I bring that same approach to coaching: I don't just build you a plan, I make sure you understand it well enough to run it yourself, with confidence that it lines up with what you believe.",
         "Most people see investing as a gamble — from the outside, it looks like a casino. But real investing isn't about picking winners or timing the market. It takes consistency, time, and the same patient trust Scripture calls us to in every other area of life — the least exciting and most reliable force in finance.",
-        "I've coached people with their finances since 2018. Several came to me wanting a coach who understood both the numbers and the conviction behind generosity, giving, and contentment. The principles never change — only the numbers do.",
+        "I've coached people with their finances since 2018. Several came to me wanting a coach who understood both the numbers and the conviction behind contentment and stewardship. The principles never change — only the numbers do.",
         {
           quote:
             'Structure beats hope, automation beats willpower, and faithful stewardship beats both.',
@@ -69,7 +69,7 @@ export const COPY = {
         'Here are the three steps, in order.',
       ],
       proof:
-        'One client came to me wanting help investing. Reviewing her budget along the way turned up $2,100 a year just from switching her car insurance plan — money that went straight into her giving and her investments.',
+        'One client came to me wanting help investing. Reviewing her budget along the way turned up $2,100 a year just from switching her car insurance plan — money that went straight into her investments.',
     },
     servicesTitle: 'Who I Help',
     servicesBody:
@@ -150,8 +150,7 @@ export const COPY = {
       'Preguntas Frecuentes',
       'Contacto',
     ],
-    heroTitle:
-      'Administre bien su dinero. Viva y dé con generosidad y libertad.',
+    heroTitle: 'Administre bien su dinero. Viva con la mano abierta.',
     heroLead:
       'La mayoría de los cristianos nunca habla de dinero en la iglesia, pero el dinero toca casi todas las decisiones que tomamos. Si se ha sentido atrapado entre lo que gana, lo que debe y lo que cree sobre la mayordomía, está en buena compañía y tiene más solución de lo que parece: con unas cuantas sesiones enfocadas, tendrá un plan basado en principios bíblicos que entiende y puede manejar usted mismo.',
     heroCta: 'Agende Su Consulta Gratuita',
@@ -167,7 +166,7 @@ export const COPY = {
     philosophy: {
       title: 'Por qué "Sabio y Puro"',
       verseText:
-        'He aquí, yo os envío como a ovejas en medio de lobos; sed, pues, sabios como serpientes, y puros como palomas.',
+        'He aquí, Yo os envío como a ovejas en medio de lobos; sed, pues, sabios como serpientes, y puros como palomas.',
       verseReference: 'Mateo 10:16',
       teaser:
         'El nombre no es solo un juego de palabras — viene de cómo Jesús les dijo a sus discípulos que manejaran el dinero, y es toda la filosofía detrás de este coaching.',
@@ -176,7 +175,7 @@ export const COPY = {
         'El nombre viene de Mateo 10:16, donde Jesús les dice a sus discípulos que sean "sabios como serpientes, y puros como palomas." No estaba hablando de dinero en ese momento, pero unos capítulos después, en Lucas 16, dice casi lo mismo directamente sobre el tema.',
         'En Lucas 16, Jesús cuenta una parábola extraña sobre un administrador deshonesto que es descubierto, y que actúa con astucia para asegurar su futuro antes de perder su puesto — y Jesús elogia su astucia, no su ética: "los hijos de este siglo son más sagaces en su generación que los hijos de luz." Después les pide a sus propios seguidores que sean igual de agudos con el dinero, pero apuntando a algo que sí permanece: "Haceos amigos de las riquezas de iniquidad, para que cuando faltareis, os reciban en las moradas eternas" (Lucas 16:9).',
         'Esa es la mitad sabia. La mitad pura es lo que evita que se convierta en codicia: "El que es fiel en lo muy poco, es fiel también en lo mucho" (Lucas 16:10) — cómo maneja un presupuesto, una tarjeta de crédito o un cheque de pago es el entrenamiento para todo lo demás que se le confiará después. Y debajo de ambas mitades está la misma advertencia: "No podéis servir a Dios y a las riquezas" (Lucas 16:13). El dinero es un buen siervo y un pésimo amo.',
-        'Esa es toda la filosofía detrás de este coaching. Sea sabio: aprenda cómo funcionan realmente el presupuesto, la deuda y la inversión, en lugar de evitar el tema o esperar que se resuelva solo. Sea puro: sosténgalo con la mano abierta, libre tanto de la codicia como del miedo, para que pueda cumplir su propósito — sostener a su familia, financiar su generosidad, y darle la libertad de enfocarse en lo que de verdad importa.',
+        'Esa es toda la filosofía detrás de este coaching. Sea sabio: aprenda cómo funcionan realmente el presupuesto, la deuda y la inversión, en lugar de evitar el tema o esperar que se resuelva solo. Sea puro: sosténgalo con la mano abierta, libre tanto de la codicia como del miedo, para que pueda cumplir su propósito — sostener a su familia, y darle la libertad de enfocarse en lo que de verdad importa.',
       ],
     },
     homeAbout: {
@@ -193,7 +192,7 @@ export const COPY = {
         'En julio de 2020, tenía $500 dólares a mi nombre — una etapa de bajos ingresos que superé administrando bien mi presupuesto. Ya dominaba cómo manejar el dinero; hacerlo crecer era la pieza que me faltaba. Así que aprendí a construir patrimonio desde cero, empezando por la automatización y pagándome a mí mismo primero, sin perder de vista que el dinero es una herramienta para administrar, no algo que perseguir por sí solo. Hoy soy ingeniero de software, propietario de mi casa e inversionista — pero el verdadero logro es la libertad. El dinero ya no controla mis decisiones; trabaja en segundo plano para que yo pueda enfocarme en mi familia, mi iglesia y mi comunidad.',
         'Antes de la ingeniería de software, fui maestro — me encantaba ver a mis alumnos dominar lo que antes creían imposible. Aporto ese mismo enfoque al coaching: no solo le construyo un plan, me aseguro de que lo entienda lo suficientemente bien como para manejarlo usted mismo, con la confianza de que está alineado con lo que cree.',
         'La mayoría ve las inversiones como una apuesta — desde afuera, parece un casino. Pero invertir de verdad no se trata de adivinar ganadores ni de predecir el mercado. Requiere constancia, tiempo y esa misma confianza paciente a la que la Escritura nos llama en cualquier otra área de la vida — la fuerza menos emocionante y más confiable en las finanzas.',
-        'He asesorado a personas con sus finanzas desde 2018. Varios llegaron buscando un coach que entendiera tanto los números como la convicción detrás de la generosidad, el dar y el contentamiento. Los principios nunca cambian — solo cambian las cifras.',
+        'He asesorado a personas con sus finanzas desde 2018. Varios llegaron buscando un coach que entendiera tanto los números como la convicción detrás del contentamiento y la mayordomía. Los principios nunca cambian — solo cambian las cifras.',
         {
           quote:
             'La estructura vence a la esperanza, la automatización vence a la fuerza de voluntad, y la mayordomía fiel vence a ambas.',
@@ -210,7 +209,7 @@ export const COPY = {
         'Estos son los tres pasos, en orden.',
       ],
       proof:
-        'Una clienta llegó buscando ayuda para invertir, y al revisar su presupuesto en el camino encontramos $2,100 al año con solo cambiar su plan de seguro de auto — dinero que fue directo a su generosidad y a sus inversiones.',
+        'Una clienta llegó buscando ayuda para invertir, y al revisar su presupuesto en el camino encontramos $2,100 al año con solo cambiar su plan de seguro de auto — dinero que fue directo a sus inversiones.',
     },
     servicesTitle: 'A Quién Ayudo',
     servicesBody:
@@ -287,22 +286,22 @@ export const SERVICES = {
     {
       icon: 'bi-mortarboard-fill',
       title: 'College Students',
-      text: 'Build your foundation with credit basics, emergency savings habits, and your first real investment account — while forming habits around giving early.',
+      text: 'Build your foundation with credit basics, emergency savings habits, and your first real investment account.',
     },
     {
       icon: 'bi-briefcase',
       title: 'Young Professionals',
-      text: 'Turn income into momentum through automation, debt reduction, and tax-advantaged investing, with a plan that leaves room for generosity.',
+      text: 'Turn income into momentum through automation, debt reduction, and tax-advantaged investing.',
     },
     {
       icon: 'bi-graph-up-arrow',
       title: 'High-Income Professionals',
-      text: 'If you earn well but nothing is working in the background, we find where it is going, put your savings and giving on autopilot, and get the rest invested for the long term.',
+      text: 'If you earn well but nothing is working in the background, we find where it is going, put your savings on autopilot, and get the rest invested for the long term.',
     },
     {
       icon: 'bi-house-heart',
       title: 'Young Families',
-      text: 'Balance a mortgage, childcare, and monthly cash flow while still putting something away — and setting aside something to give — every month.',
+      text: 'Balance a mortgage, childcare, and monthly cash flow while still putting something away every month.',
     },
     {
       icon: 'bi-people-fill',
@@ -317,29 +316,29 @@ export const SERVICES = {
     {
       icon: 'bi-flower1',
       title: 'Seniors',
-      text: 'Get your accounts organized and understand what you hold, so your money stays simple to manage — and simple to be generous with.',
+      text: 'Get your accounts organized and understand what you hold, so your money stays simple to manage.',
     },
   ],
   es: [
     {
       icon: 'bi-mortarboard-fill',
       title: 'Estudiantes Universitarios',
-      text: 'Construya su base con fundamentos de crédito, hábitos de ahorro de emergencia y su primera cuenta de inversión real — formando también el hábito de dar desde el principio.',
+      text: 'Construya su base con fundamentos de crédito, hábitos de ahorro de emergencia y su primera cuenta de inversión real.',
     },
     {
       icon: 'bi-briefcase',
       title: 'Jóvenes Profesionales',
-      text: 'Convierta sus ingresos en avance con automatización, reducción de deuda y hábitos de inversión con ventajas fiscales, con un plan que también deje espacio para la generosidad.',
+      text: 'Convierta sus ingresos en avance con automatización, reducción de deuda y hábitos de inversión con ventajas fiscales.',
     },
     {
       icon: 'bi-graph-up-arrow',
       title: 'Profesionales de Altos Ingresos',
-      text: 'Si gana bien pero nada está trabajando en segundo plano, encontramos a dónde se va, ponemos su ahorro y su generosidad en piloto automático, e invertimos el resto a largo plazo.',
+      text: 'Si gana bien pero nada está trabajando en segundo plano, encontramos a dónde se va, ponemos su ahorro en piloto automático, e invertimos el resto a largo plazo.',
     },
     {
       icon: 'bi-house-heart',
       title: 'Familias Jóvenes',
-      text: 'Equilibre la hipoteca, el cuidado de los niños y el flujo mensual sin dejar de ahorrar, y de apartar algo para dar, cada mes.',
+      text: 'Equilibre la hipoteca, el cuidado de los niños y el flujo mensual sin dejar de ahorrar cada mes.',
     },
     {
       icon: 'bi-people-fill',
@@ -354,7 +353,7 @@ export const SERVICES = {
     {
       icon: 'bi-flower1',
       title: 'Adultos Mayores',
-      text: 'Organice sus cuentas y entienda qué es lo que tiene, para que su dinero siga siendo simple de manejar — y simple con el que ser generoso.',
+      text: 'Organice sus cuentas y entienda qué es lo que tiene, para que su dinero siga siendo simple de manejar.',
     },
   ],
 };
@@ -455,10 +454,6 @@ export const RESULTS = {
       text: 'Thousands of dollars in hidden savings found by reviewing their budget in detail',
     },
     {
-      icon: 'bi-heart',
-      text: 'A giving plan they can stick to with confidence, instead of guilt or guesswork',
-    },
-    {
       icon: 'bi-bar-chart-line',
       text: 'A simple retirement portfolio that they actually understand',
     },
@@ -472,7 +467,7 @@ export const RESULTS = {
     },
     {
       icon: 'bi-wallet2',
-      text: 'Automated savings and giving that quietly move money where it should go every month',
+      text: 'Automated savings that quietly move money where it should go every month',
     },
   ],
   es: [
@@ -493,10 +488,6 @@ export const RESULTS = {
       text: 'Miles de dólares en ahorros ocultos encontrados al revisar su presupuesto en detalle',
     },
     {
-      icon: 'bi-heart',
-      text: 'Un plan de generosidad que pueden sostener con confianza, sin culpa ni improvisación',
-    },
-    {
       icon: 'bi-bar-chart-line',
       text: 'Una cartera de jubilación simple que realmente entienden',
     },
@@ -510,7 +501,7 @@ export const RESULTS = {
     },
     {
       icon: 'bi-wallet2',
-      text: 'Ahorro y generosidad automatizados que mueven silenciosamente el dinero a donde debe ir cada mes',
+      text: 'Ahorro automatizado que mueve silenciosamente el dinero a donde debe ir cada mes',
     },
   ],
 };
@@ -569,8 +560,8 @@ export const APPROACH_STEPS = {
       text: 'Next, we build a cushion. An emergency fund means a flat tire or a surprise bill turns into an inconvenience, not debt — and it keeps you from ever having to go into debt or sell your investments at the wrong time.',
     },
     {
-      title: 'Give and Invest the Extra',
-      text: 'Last, extra income goes to work — some toward generous giving, and the rest invested for the long term. The stock market is the most accessible way for anyone to build real wealth — no advisor and no six-figure salary required, just consistency and time.',
+      title: 'Invest the Extra',
+      text: 'Last, extra income goes to work, invested for the long term. The stock market is the most accessible way for anyone to build real wealth — no advisor and no six-figure salary required, just consistency and time.',
     },
   ],
   es: [
@@ -583,8 +574,8 @@ export const APPROACH_STEPS = {
       text: 'Después, construimos un colchón. Un fondo de emergencia significa que una llanta ponchada o un gasto inesperado se convierte en una molestia, no en deuda — y evita que tenga que vender sus inversiones en el peor momento.',
     },
     {
-      title: 'Dé e Invierta lo Que le Sobra',
-      text: 'Por último, el ingreso extra se pone a trabajar — parte hacia la generosidad, y el resto invertido a largo plazo. La bolsa de valores es la forma más accesible que cualquier persona tiene para construir riqueza real — sin necesidad de asesor ni de un salario de seis cifras, solo consistencia y tiempo.',
+      title: 'Invierta lo Que le Sobra',
+      text: 'Por último, el ingreso extra se pone a trabajar, invertido a largo plazo. La bolsa de valores es la forma más accesible que cualquier persona tiene para construir riqueza real — sin necesidad de asesor ni de un salario de seis cifras, solo consistencia y tiempo.',
     },
   ],
 };
@@ -611,8 +602,8 @@ export const FORM_MESSAGES = {
 
 /** Sitewide <meta name="keywords"> content, applied to every page by buildMeta(). */
 export const SITE_KEYWORDS = {
-  en: 'financial coaching, biblical stewardship, faith-based budgeting, debt-free living, generous giving, personal finance',
-  es: 'coaching financiero, mayordomía bíblica, presupuesto con fe, vida libre de deudas, generosidad, finanzas personales',
+  en: 'financial coaching, biblical stewardship, faith-based budgeting, debt-free living, personal finance',
+  es: 'coaching financiero, mayordomía bíblica, presupuesto con fe, vida libre de deudas, finanzas personales',
 };
 
 /**
@@ -627,10 +618,10 @@ export const PAGE_META = {
     home: {
       title: 'Wise and Pure | Financial Coaching',
       description:
-        'Biblical financial coaching to turn money stress into a clear plan. Budget with purpose, eliminate debt, give generously, and build long-term wealth as a faithful steward.',
+        'Biblical financial coaching to turn money stress into a clear plan. Budget with purpose, eliminate debt, and build long-term wealth as a faithful steward.',
       ogTitle: 'Wise and Pure',
       ogDescription:
-        'Financial coaching to help you organize cash flow, give generously, and build long-term wealth on biblical principles.',
+        'Financial coaching to help you organize cash flow and build long-term wealth on biblical principles.',
     },
     about: {
       title: 'Wise and Pure | About Angel Giron',
@@ -677,10 +668,10 @@ export const PAGE_META = {
     home: {
       title: 'Sabio y Puro | Coaching Financiero',
       description:
-        'Coaching financiero bíblico para transformar el estrés por dinero en un plan claro. Presupueste con propósito, elimine deudas, sea generoso y construya patrimonio como un buen mayordomo.',
+        'Coaching financiero bíblico para transformar el estrés por dinero en un plan claro. Presupueste con propósito, elimine deudas y construya patrimonio como un buen mayordomo.',
       ogTitle: 'Sabio y Puro',
       ogDescription:
-        'Coaching financiero para organizar su flujo de efectivo, ser generoso y construir patrimonio a largo plazo con principios bíblicos.',
+        'Coaching financiero para organizar su flujo de efectivo y construir patrimonio a largo plazo con principios bíblicos.',
     },
     about: {
       title: 'Sabio y Puro | Sobre Ángel Giron',
@@ -748,7 +739,7 @@ export const FAQ = {
       question:
         "You're an engineer. Why coach at all, and why bring faith into it?",
       answer:
-        "Coaching isn't how I pay my bills — I have a job. That's exactly why I can tell you that you don't need this, or that we're done and you don't need me anymore. I started Wise and Pure because I think money is one of the most talked-about subjects in Scripture and one of the least taught well anywhere, including in church. Nobody sat me down and explained how to manage money either. I want to help Christians build wealth without compromising their convictions, and give generously without wondering if they can afford it.",
+        "Coaching isn't how I pay my bills — I have a job. That's exactly why I can tell you that you don't need this, or that we're done and you don't need me anymore. I started Wise and Pure because I think money is one of the most talked-about subjects in Scripture and one of the least taught well anywhere, including in church. Nobody sat me down and explained how to manage money either. I want to help Christians build wealth without compromising their convictions.",
     },
     {
       question:
@@ -779,7 +770,7 @@ export const FAQ = {
       question:
         "Shouldn't Christians avoid pursuing wealth, or just be content with less?",
       answer:
-        "Contentment and ambition aren't opposites here — Scripture holds both. Moses told Israel plainly that it is God who gives the ability to produce wealth — not as a temptation to resist, but as a strength to steward well. Being poor isn't a virtue any more than being rich is a sin; the goal is a stable position — free of debt, able to give generously, able to help rather than always needing to be helped — because that position is what lets you actually serve your family, your church, and your community instead of just surviving. Pursuing wealth to hoard it or worship it is the danger Scripture warns about. Pursuing it to be in a position to give and to lead is what it's for.",
+        "Contentment and ambition aren't opposites here — Scripture holds both. Moses told Israel plainly that it is God who gives the ability to produce wealth — not as a temptation to resist, but as a strength to steward well. Being poor isn't a virtue any more than being rich is a sin; the goal is a stable position — free of debt, able to help rather than always needing to be helped — because that position is what lets you actually serve your family, your church, and your community instead of just surviving. Pursuing wealth to hoard it or worship it is the danger Scripture warns about. Pursuing it to be in a position to help and to lead is what it's for.",
       verse: {
         text: 'But you shall remember Jehovah your God, for it is He who gives you strength to gain wealth, so that He may establish His covenant, which He swore to your fathers, as it is this day.',
         reference: 'Deuteronomy 8:18',
@@ -819,7 +810,7 @@ export const FAQ = {
     {
       question: "What if I don't earn a high income?",
       answer:
-        'The coaching works the same way regardless of how much you make: the goal is a system — a clear picture of where your money goes, automated saving and giving, and a plan you can run without willpower. Clients have started this process with as little as $500.',
+        'The coaching works the same way regardless of how much you make: the goal is a system — a clear picture of where your money goes, automated saving, and a plan you can run without willpower. Clients have started this process with as little as $500.',
     },
     {
       question: 'What if the cost is a barrier for me right now?',
@@ -844,10 +835,10 @@ export const FAQ = {
     {
       question: 'What do sessions actually cover?',
       answer:
-        "Every session builds on the last. On the cash flow side, we work through your real numbers, find expenses worth cutting, and get your emergency fund and your giving plan funded. On the investing side, I teach the principles: how index funds work, how to evaluate fees, and how to think about risk. I don't recommend specific stocks — if one comes up, it's only as an example of what a risky investment looks like — so you leave able to manage your own portfolio with confidence.",
+        "Every session builds on the last. On the cash flow side, we work through your real numbers, find expenses worth cutting, and get your emergency fund funded. On the investing side, I teach the principles: how index funds work, how to evaluate fees, and how to think about risk. I don't recommend specific stocks — if one comes up, it's only as an example of what a risky investment looks like — so you leave able to manage your own portfolio with confidence.",
     },
     {
-      question: 'Where do we start — budgeting, giving, or investing?',
+      question: 'Where do we start — budgeting or investing?',
       answer:
         "My recommendation is almost always your budget first, even when investing is what brought you here — I want you invested for the long term, not forced to pull money back out because an expense caught you off guard. That said, it's your money and your call. Some clients come to me strictly for investing and that's exactly what we do; I'll just make sure you've heard the case for looking at cash flow first. It's paid off before — a routine budget review for an investing-focused client turned up real monthly savings that went straight into her portfolio instead of being spent.",
     },
@@ -888,7 +879,7 @@ export const FAQ = {
       question:
         'Usted es ingeniero. ¿Por qué se dedica a esto, y por qué incluir la fe?',
       answer:
-        'El coaching no es de lo que vivo — tengo un trabajo. Precisamente por eso puedo decirle que no lo necesita, o que ya terminamos y que no me necesita más. Comencé Sabio y Puro porque creo que el dinero es uno de los temas de los que más se habla en la Escritura y de los que menos se enseña bien, incluso en la iglesia. A mí tampoco nadie se sentó a explicarme cómo manejar el dinero. Quiero ayudar a los cristianos a construir riqueza sin comprometer sus convicciones, y a ser generosos sin preguntarse si pueden costearlo.',
+        'El coaching no es de lo que vivo — tengo un trabajo. Precisamente por eso puedo decirle que no lo necesita, o que ya terminamos y que no me necesita más. Comencé Sabio y Puro porque creo que el dinero es uno de los temas de los que más se habla en la Escritura y de los que menos se enseña bien, incluso en la iglesia. A mí tampoco nadie se sentó a explicarme cómo manejar el dinero. Quiero ayudar a los cristianos a construir riqueza sin comprometer sus convicciones.',
     },
     {
       question:
@@ -920,7 +911,7 @@ export const FAQ = {
       question:
         '¿No deberían los cristianos evitar buscar riqueza, o simplemente conformarse con tener menos?',
       answer:
-        'El contentamiento y la ambición no son opuestos aquí — la Escritura sostiene ambas cosas. Moisés le dijo claramente a Israel que es Dios quien da el poder para producir riqueza — no como una tentación que resistir, sino como una fuerza que administrar bien. Ser pobre no es una virtud, así como ser rico tampoco es un pecado; la meta es una posición estable — libre de deudas, capaz de dar con generosidad, capaz de ayudar en lugar de necesitar siempre ayuda — porque esa posición es lo que le permite servir de verdad a su familia, a su iglesia y a su comunidad, en lugar de simplemente sobrevivir. Buscar riqueza para acapararla o para adorarla es el peligro del que advierte la Escritura. Buscarla para poder dar y liderar es para lo que existe.',
+        'El contentamiento y la ambición no son opuestos aquí — la Escritura sostiene ambas cosas. Moisés le dijo claramente a Israel que es Dios quien da el poder para producir riqueza — no como una tentación que resistir, sino como una fuerza que administrar bien. Ser pobre no es una virtud, así como ser rico tampoco es un pecado; la meta es una posición estable — libre de deudas, capaz de ayudar en lugar de necesitar siempre ayuda — porque esa posición es lo que le permite servir de verdad a su familia, a su iglesia y a su comunidad, en lugar de simplemente sobrevivir. Buscar riqueza para acapararla o para adorarla es el peligro del que advierte la Escritura. Buscarla para poder ayudar y liderar es para lo que existe.',
       verse: {
         text: 'Antes bien, te acordarás de Jehová tu Dios, porque Él te da las fuerzas para adquirir riquezas, a fin de confirmar Su pacto que juró a tus padres, como se ve en este día.',
         reference: 'Deuteronomio 8:18',
@@ -959,7 +950,7 @@ export const FAQ = {
     {
       question: '¿Qué pasa si no tengo un ingreso alto?',
       answer:
-        'El coaching funciona de la misma manera sin importar cuánto gane: la meta es un sistema — una imagen clara de a dónde va su dinero, ahorro y generosidad automatizados, y un plan que pueda seguir sin depender de la fuerza de voluntad. Algunos clientes comenzaron este proceso con tan solo $500.',
+        'El coaching funciona de la misma manera sin importar cuánto gane: la meta es un sistema — una imagen clara de a dónde va su dinero, ahorro automatizado, y un plan que pueda seguir sin depender de la fuerza de voluntad. Algunos clientes comenzaron este proceso con tan solo $500.',
     },
     {
       question:
@@ -985,10 +976,10 @@ export const FAQ = {
     {
       question: '¿Qué se cubre realmente en las sesiones?',
       answer:
-        'Cada sesión se construye sobre la anterior. Del lado del flujo de efectivo, trabajamos con sus números reales, encontramos gastos que vale la pena recortar, y establecemos su fondo de emergencia y su plan de generosidad. Del lado de la inversión, le enseño los principios: cómo funcionan los fondos indexados, cómo evaluar las comisiones, y cómo pensar en el riesgo. No recomiendo acciones específicas — si menciono alguna, es solo como ejemplo de lo que es una inversión riesgosa — para que salga capaz de manejar su propio portafolio con confianza.',
+        'Cada sesión se construye sobre la anterior. Del lado del flujo de efectivo, trabajamos con sus números reales, encontramos gastos que vale la pena recortar, y establecemos su fondo de emergencia. Del lado de la inversión, le enseño los principios: cómo funcionan los fondos indexados, cómo evaluar las comisiones, y cómo pensar en el riesgo. No recomiendo acciones específicas — si menciono alguna, es solo como ejemplo de lo que es una inversión riesgosa — para que salga capaz de manejar su propio portafolio con confianza.',
     },
     {
-      question: '¿Por dónde empezamos: el presupuesto, el dar o la inversión?',
+      question: '¿Por dónde empezamos: el presupuesto o la inversión?',
       answer:
         'Mi recomendación es casi siempre empezar por su presupuesto, aun cuando lo que lo trajo aquí fue invertir — quiero que invierta pensando en el largo plazo, no que tenga que sacar ese dinero porque un gasto lo tomó por sorpresa. Dicho eso, es su dinero y su decisión. Algunos clientes vienen conmigo estrictamente para invertir y eso es exactamente lo que hacemos; yo solo me aseguro de que haya escuchado por qué conviene revisar el flujo de efectivo primero. Ya ha dado resultado: una revisión rutinaria del presupuesto de una clienta enfocada en invertir reveló ahorros mensuales reales que fueron directo a su portafolio en lugar de gastarse.',
     },
